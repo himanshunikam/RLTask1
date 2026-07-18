@@ -45,7 +45,7 @@ def tune_nstep():
     print("best value :", study.best_value)
     print("best params:", study.best_params)
 
-if __name__ == "__main__":
+def tune_all():
     for name, learner in [("sarsa", sarsa_fn),
                           ("n_step_sarsa",   n_step_sarsa)]:
         study = optuna.create_study(direction="maximize", study_name=name)
@@ -53,3 +53,6 @@ if __name__ == "__main__":
         print(f"\n=== {name} ===")
         print("best value :", study.best_value)
         print("best params:", study.best_params)
+
+if __name__ == "__main__":
+    tune_nstep()
