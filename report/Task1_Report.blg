@@ -1,0 +1,17 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Task1_Report.blg'
+[197] biber-MSWIN64:340> INFO - === 
+[253] Biber.pm:420> INFO - Reading 'Task1_Report.bcf'
+[437] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[465] Biber.pm:4463> INFO - Processing section 0
+[491] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[569] bibtex.pm:1713> INFO - LaTeX decoding ...
+[604] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[705] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[705] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[706] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[706] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[714] bbl.pm:676> INFO - Writing 'Task1_Report.bbl' with encoding 'UTF-8'
+[718] bbl.pm:779> INFO - Output to Task1_Report.bbl
+[719] Biber.pm:131> WARN - legacy month field 'July' in entry 'zhao2025potentialbasedrewardshaping' is not an integer - this will probably not sort properly.
+[719] Biber.pm:133> INFO - WARNINGS: 1

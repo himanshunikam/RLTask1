@@ -1,0 +1,968 @@
+env  13/100 | final-10 avg real reward:    0.0
+env  14/100 | final-10 avg real reward:    0.0
+env  15/100 | final-10 avg real reward:    0.0
+env  16/100 | final-10 avg real reward:    0.0
+env  17/100 | final-10 avg real reward:    0.0
+env  18/100 | final-10 avg real reward:    0.0
+env  19/100 | final-10 avg real reward:    0.0
+env  20/100 | final-10 avg real reward:    0.0
+env  21/100 | final-10 avg real reward:    0.0
+env  22/100 | final-10 avg real reward:  100.0
+env  23/100 | final-10 avg real reward:    0.0
+env  24/100 | final-10 avg real reward:    0.0
+env  25/100 | final-10 avg real reward:    0.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:    0.0
+env  28/100 | final-10 avg real reward:    0.0
+env  29/100 | final-10 avg real reward:    0.0
+env  30/100 | final-10 avg real reward:    0.0
+env  31/100 | final-10 avg real reward:    0.0
+env  32/100 | final-10 avg real reward:    0.0
+env  33/100 | final-10 avg real reward:    0.0
+env  34/100 | final-10 avg real reward:    0.0
+env  35/100 | final-10 avg real reward:    0.0
+env  36/100 | final-10 avg real reward:    0.0
+env  37/100 | final-10 avg real reward:    0.0
+env  38/100 | final-10 avg real reward:    0.0
+env  39/100 | final-10 avg real reward:    0.0
+env  40/100 | final-10 avg real reward:    0.0
+env  41/100 | final-10 avg real reward:    0.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:    0.0
+env  44/100 | final-10 avg real reward:    0.0
+env  45/100 | final-10 avg real reward:    0.0
+env  46/100 | final-10 avg real reward:    0.0
+env  47/100 | final-10 avg real reward:    0.0
+env  48/100 | final-10 avg real reward:    0.0
+env  49/100 | final-10 avg real reward:    0.0
+env  50/100 | final-10 avg real reward:    0.0
+env  51/100 | final-10 avg real reward:    0.0
+env  52/100 | final-10 avg real reward:    0.0
+env  53/100 | final-10 avg real reward:    0.0
+env  54/100 | final-10 avg real reward:    0.0
+env  55/100 | final-10 avg real reward:    0.0
+env  56/100 | final-10 avg real reward:    0.0
+env  57/100 | final-10 avg real reward:    0.0
+env  58/100 | final-10 avg real reward:    0.0
+env  59/100 | final-10 avg real reward:    0.0
+env  60/100 | final-10 avg real reward:    0.0
+env  61/100 | final-10 avg real reward:    0.0
+env  62/100 | final-10 avg real reward:    0.0
+env  63/100 | final-10 avg real reward:    0.0
+env  64/100 | final-10 avg real reward:    0.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:    0.0
+env  67/100 | final-10 avg real reward:    0.0
+env  68/100 | final-10 avg real reward:    0.0
+env  69/100 | final-10 avg real reward:    0.0
+env  70/100 | final-10 avg real reward:    0.0
+env  71/100 | final-10 avg real reward:    0.0
+env  72/100 | final-10 avg real reward:    0.0
+env  73/100 | final-10 avg real reward:    0.0
+env  74/100 | final-10 avg real reward:    0.0
+env  75/100 | final-10 avg real reward:    0.0
+env  76/100 | final-10 avg real reward:    0.0
+env  77/100 | final-10 avg real reward:    0.0
+env  78/100 | final-10 avg real reward:    0.0
+env  79/100 | final-10 avg real reward:    0.0
+env  80/100 | final-10 avg real reward:    0.0
+env  81/100 | final-10 avg real reward:    0.0
+env  82/100 | final-10 avg real reward:    0.0
+env  83/100 | final-10 avg real reward:    0.0
+env  84/100 | final-10 avg real reward:    0.0
+env  85/100 | final-10 avg real reward:    0.0
+env  86/100 | final-10 avg real reward:    0.0
+env  87/100 | final-10 avg real reward:    0.0
+env  88/100 | final-10 avg real reward:    0.0
+env  89/100 | final-10 avg real reward:    0.0
+env  90/100 | final-10 avg real reward:    0.0
+env  91/100 | final-10 avg real reward:    0.0
+env  92/100 | final-10 avg real reward:  100.0
+env  93/100 | final-10 avg real reward:    0.0
+env  94/100 | final-10 avg real reward:    0.0
+env  95/100 | final-10 avg real reward:    0.0
+env  96/100 | final-10 avg real reward:    0.0
+env  97/100 | final-10 avg real reward:    0.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:    0.0
+env 100/100 | final-10 avg real reward:    0.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -42 / -24 / -11 / 3
+Traceback (most recent call last):
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 245, in <module>
+    main()                       # required deliverable: averaged learning curve
+    ~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 241, in main
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\matplotlib\pyplot.py", line 646, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\matplotlib\backend_bases.py", line 3702, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\matplotlib\backends\_backend_tk.py", line 582, in start_main_loop
+    first_manager.window.mainloop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\tkinter\__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+KeyboardInterrupt
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:  100.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  100.0
+env   7/100 | final-10 avg real reward:  100.0
+env   8/100 | final-10 avg real reward:  100.0
+env   9/100 | final-10 avg real reward:  100.0
+env  10/100 | final-10 avg real reward:  100.0
+env  11/100 | final-10 avg real reward:  100.0
+env  12/100 | final-10 avg real reward:  100.0
+env  13/100 | final-10 avg real reward:  100.0
+env  14/100 | final-10 avg real reward:  100.0
+env  15/100 | final-10 avg real reward:  100.0
+env  16/100 | final-10 avg real reward:  100.0
+env  17/100 | final-10 avg real reward:  100.0
+env  18/100 | final-10 avg real reward:  100.0
+env  19/100 | final-10 avg real reward:  100.0
+env  20/100 | final-10 avg real reward:  100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:  100.0
+env  23/100 | final-10 avg real reward:  100.0
+env  24/100 | final-10 avg real reward:  100.0
+env  25/100 | final-10 avg real reward:  100.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  100.0
+env  28/100 | final-10 avg real reward:  100.0
+env  29/100 | final-10 avg real reward:  100.0
+env  30/100 | final-10 avg real reward:  100.0
+env  31/100 | final-10 avg real reward:  100.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward:  100.0
+env  34/100 | final-10 avg real reward:  100.0
+env  35/100 | final-10 avg real reward:  100.0
+env  36/100 | final-10 avg real reward:  100.0
+env  37/100 | final-10 avg real reward:  100.0
+env  38/100 | final-10 avg real reward:  100.0
+env  39/100 | final-10 avg real reward:  100.0
+env  40/100 | final-10 avg real reward:  100.0
+env  41/100 | final-10 avg real reward:  100.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:  100.0
+env  44/100 | final-10 avg real reward:  100.0
+env  45/100 | final-10 avg real reward:  100.0
+env  46/100 | final-10 avg real reward:  100.0
+env  47/100 | final-10 avg real reward:  100.0
+env  48/100 | final-10 avg real reward:  100.0
+env  49/100 | final-10 avg real reward:  100.0
+env  50/100 | final-10 avg real reward:  100.0
+env  51/100 | final-10 avg real reward:  100.0
+env  52/100 | final-10 avg real reward:  100.0
+env  53/100 | final-10 avg real reward:  100.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:  100.0
+env  56/100 | final-10 avg real reward:  100.0
+env  57/100 | final-10 avg real reward:  100.0
+env  58/100 | final-10 avg real reward:  100.0
+env  59/100 | final-10 avg real reward:  100.0
+env  60/100 | final-10 avg real reward:  100.0
+env  61/100 | final-10 avg real reward:  100.0
+env  62/100 | final-10 avg real reward:  100.0
+env  63/100 | final-10 avg real reward:  100.0
+env  64/100 | final-10 avg real reward:  100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  100.0
+env  67/100 | final-10 avg real reward:  100.0
+env  68/100 | final-10 avg real reward:  100.0
+env  69/100 | final-10 avg real reward:  100.0
+env  70/100 | final-10 avg real reward:  100.0
+env  71/100 | final-10 avg real reward:  100.0
+env  72/100 | final-10 avg real reward:  100.0
+env  73/100 | final-10 avg real reward:  100.0
+env  74/100 | final-10 avg real reward:  100.0
+env  75/100 | final-10 avg real reward:  100.0
+env  76/100 | final-10 avg real reward:  100.0
+env  77/100 | final-10 avg real reward:  100.0
+env  78/100 | final-10 avg real reward:  100.0
+env  79/100 | final-10 avg real reward:  100.0
+env  80/100 | final-10 avg real reward:  100.0
+env  81/100 | final-10 avg real reward:  100.0
+env  82/100 | final-10 avg real reward:  100.0
+env  83/100 | final-10 avg real reward:  100.0
+env  84/100 | final-10 avg real reward:  100.0
+env  85/100 | final-10 avg real reward:  100.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  100.0
+env  88/100 | final-10 avg real reward:  100.0
+env  89/100 | final-10 avg real reward:  100.0
+env  90/100 | final-10 avg real reward:  100.0
+env  91/100 | final-10 avg real reward:  100.0
+env  92/100 | final-10 avg real reward:  100.0
+env  93/100 | final-10 avg real reward:  100.0
+env  94/100 | final-10 avg real reward:  100.0
+env  95/100 | final-10 avg real reward:  100.0
+env  96/100 | final-10 avg real reward:  100.0
+env  97/100 | final-10 avg real reward:  100.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:  100.0
+env 100/100 | final-10 avg real reward:  100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: 46 / 90 / 96 / 96
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward: -100.0
+env   3/100 | final-10 avg real reward: -100.0
+env   4/100 | final-10 avg real reward:  -60.0
+env   5/100 | final-10 avg real reward: -100.0
+env   6/100 | final-10 avg real reward: -100.0
+env   7/100 | final-10 avg real reward:  -80.0
+env   8/100 | final-10 avg real reward: -100.0
+env   9/100 | final-10 avg real reward: -100.0
+env  10/100 | final-10 avg real reward: -100.0
+env  11/100 | final-10 avg real reward: -100.0
+env  12/100 | final-10 avg real reward: -100.0
+env  13/100 | final-10 avg real reward: -100.0
+env  14/100 | final-10 avg real reward: -100.0
+env  15/100 | final-10 avg real reward: -100.0
+env  16/100 | final-10 avg real reward: -100.0
+env  17/100 | final-10 avg real reward: -100.0
+env  18/100 | final-10 avg real reward:  100.0
+env  19/100 | final-10 avg real reward: -100.0
+env  20/100 | final-10 avg real reward: -100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward: -100.0
+env  23/100 | final-10 avg real reward: -100.0
+env  24/100 | final-10 avg real reward: -100.0
+env  25/100 | final-10 avg real reward:  -80.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  100.0
+env  28/100 | final-10 avg real reward: -100.0
+env  29/100 | final-10 avg real reward: -100.0
+env  30/100 | final-10 avg real reward:  -80.0
+env  31/100 | final-10 avg real reward: -100.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward: -100.0
+env  34/100 | final-10 avg real reward: -100.0
+env  35/100 | final-10 avg real reward: -100.0
+env  36/100 | final-10 avg real reward: -100.0
+env  37/100 | final-10 avg real reward:  100.0
+env  38/100 | final-10 avg real reward: -100.0
+env  39/100 | final-10 avg real reward:  100.0
+env  40/100 | final-10 avg real reward: -100.0
+env  41/100 | final-10 avg real reward: -100.0
+env  42/100 | final-10 avg real reward: -100.0
+env  43/100 | final-10 avg real reward: -100.0
+env  44/100 | final-10 avg real reward: -100.0
+env  45/100 | final-10 avg real reward: -100.0
+env  46/100 | final-10 avg real reward: -100.0
+env  47/100 | final-10 avg real reward: -100.0
+env  48/100 | final-10 avg real reward: -100.0
+env  49/100 | final-10 avg real reward: -100.0
+env  50/100 | final-10 avg real reward: -100.0
+env  51/100 | final-10 avg real reward: -100.0
+env  52/100 | final-10 avg real reward: -100.0
+env  53/100 | final-10 avg real reward: -100.0
+env  54/100 | final-10 avg real reward: -100.0
+env  55/100 | final-10 avg real reward:  -80.0
+env  56/100 | final-10 avg real reward:  100.0
+env  57/100 | final-10 avg real reward: -100.0
+env  58/100 | final-10 avg real reward: -100.0
+env  59/100 | final-10 avg real reward: -100.0
+env  60/100 | final-10 avg real reward: -100.0
+env  61/100 | final-10 avg real reward: -100.0
+env  62/100 | final-10 avg real reward:  -80.0
+env  63/100 | final-10 avg real reward: -100.0
+env  64/100 | final-10 avg real reward: -100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  -80.0
+env  67/100 | final-10 avg real reward: -100.0
+env  68/100 | final-10 avg real reward: -100.0
+env  69/100 | final-10 avg real reward: -100.0
+env  70/100 | final-10 avg real reward: -100.0
+env  71/100 | final-10 avg real reward:    0.0
+env  72/100 | final-10 avg real reward: -100.0
+env  73/100 | final-10 avg real reward: -100.0
+env  74/100 | final-10 avg real reward: -100.0
+env  75/100 | final-10 avg real reward: -100.0
+env  76/100 | final-10 avg real reward: -100.0
+env  77/100 | final-10 avg real reward: -100.0
+env  78/100 | final-10 avg real reward:  -60.0
+env  79/100 | final-10 avg real reward: -100.0
+env  80/100 | final-10 avg real reward: -100.0
+env  81/100 | final-10 avg real reward:  -60.0
+env  82/100 | final-10 avg real reward: -100.0
+env  83/100 | final-10 avg real reward: -100.0
+env  84/100 | final-10 avg real reward:  100.0
+env  85/100 | final-10 avg real reward: -100.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  -80.0
+env  88/100 | final-10 avg real reward: -100.0
+env  89/100 | final-10 avg real reward: -100.0
+env  90/100 | final-10 avg real reward: -100.0
+env  91/100 | final-10 avg real reward: -100.0
+env  92/100 | final-10 avg real reward: -100.0
+env  93/100 | final-10 avg real reward: -100.0
+env  94/100 | final-10 avg real reward:  100.0
+env  95/100 | final-10 avg real reward: -100.0
+env  96/100 | final-10 avg real reward: -100.0
+env  97/100 | final-10 avg real reward: -100.0
+env  98/100 | final-10 avg real reward:  -80.0
+env  99/100 | final-10 avg real reward: -100.0
+env 100/100 | final-10 avg real reward:  100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -100 / -100 / -100 / -70
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa_tune.py
+[I 2026-07-18 09:24:27,383] A new study created in memory with name: sarsa
+[I 2026-07-18 09:24:49,838] Trial 0 finished with value: -99.51666666666667 and parameters: {'Q_INIT': 148, 'EPS_START': 0.9288263034098079, 'EPS_DECAY': 0.7267270621509014, 'GAMMA': 0.6993120230592584, 'ALPHA': 0.8288061675883319, 'N_STEP': 5}. Best is trial 0 with value: -99.51666666666667.
+[I 2026-07-18 09:25:11,701] Trial 1 finished with value: -99.55833333333334 and parameters: {'Q_INIT': 137, 'EPS_START': 0.8244871623195561, 'EPS_DECAY': 0.6937556418994669, 'GAMMA': 0.9422174799466447, 'ALPHA': 0.5966512462264568, 'N_STEP': 4}. Best is trial 0 with value: -99.51666666666667.
+[I 2026-07-18 09:25:33,267] Trial 2 finished with value: -99.15 and parameters: {'Q_INIT': 128, 'EPS_START': 0.8470540161147229, 'EPS_DECAY': 0.9598482475439982, 'GAMMA': 0.8814188209141549, 'ALPHA': 0.9990842161346404, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:25:54,799] Trial 3 finished with value: -99.5 and parameters: {'Q_INIT': 121, 'EPS_START': 0.8969012475653733, 'EPS_DECAY': 0.8701643438636484, 'GAMMA': 0.8489563038102901, 'ALPHA': 0.7269465925325984, 'N_STEP': 3}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:26:16,275] Trial 4 finished with value: -99.61666666666666 and parameters: {'Q_INIT': 121, 'EPS_START': 0.8602755917531697, 'EPS_DECAY': 0.6398417375026464, 'GAMMA': 0.5218187903235002, 'ALPHA': 0.5273876232540189, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:26:38,222] Trial 5 finished with value: -99.58333333333333 and parameters: {'Q_INIT': 115, 'EPS_START': 0.8499488412177989, 'EPS_DECAY': 0.9187225164811932, 'GAMMA': 0.9316355585232897, 'ALPHA': 0.648150371515031, 'N_STEP': 5}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:26:59,804] Trial 6 finished with value: -99.525 and parameters: {'Q_INIT': 125, 'EPS_START': 0.885995078237278, 'EPS_DECAY': 0.836532943196356, 'GAMMA': 0.917615678740336, 'ALPHA': 0.7678734529627258, 'N_STEP': 5}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:27:22,351] Trial 7 finished with value: -99.56666666666666 and parameters: {'Q_INIT': 64, 'EPS_START': 0.8972164047326828, 'EPS_DECAY': 0.689133287160178, 'GAMMA': 0.6094153951287358, 'ALPHA': 0.6044821887043326, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:27:44,281] Trial 8 finished with value: -99.53333333333333 and parameters: {'Q_INIT': 58, 'EPS_START': 0.9056272981259854, 'EPS_DECAY': 0.5732362749307383, 'GAMMA': 0.9419579620298636, 'ALPHA': 0.5032187437995199, 'N_STEP': 3}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:28:06,204] Trial 9 finished with value: -99.56666666666666 and parameters: {'Q_INIT': 131, 'EPS_START': 0.9261804110848358, 'EPS_DECAY': 0.6873294184448558, 'GAMMA': 0.5471859970616371, 'ALPHA': 0.6390728210114667, 'N_STEP': 3}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:28:31,232] Trial 10 finished with value: -99.375 and parameters: {'Q_INIT': 93, 'EPS_START': 0.9914607135178151, 'EPS_DECAY': 0.9726381866388164, 'GAMMA': 0.7788574521203563, 'ALPHA': 0.9976944340039086, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:28:57,276] Trial 11 finished with value: -99.59166666666667 and parameters: {'Q_INIT': 91, 'EPS_START': 0.9977741168710933, 'EPS_DECAY': 0.9831824657391864, 'GAMMA': 0.7888893372803856, 'ALPHA': 0.9941586371268966, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:29:24,864] Trial 12 finished with value: -99.26666666666667 and parameters: {'Q_INIT': 97, 'EPS_START': 0.9936630723950224, 'EPS_DECAY': 0.9671375699046649, 'GAMMA': 0.7491190497416068, 'ALPHA': 0.9989033824325192, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:29:51,378] Trial 13 finished with value: -99.49166666666666 and parameters: {'Q_INIT': 99, 'EPS_START': 0.8024507345391891, 'EPS_DECAY': 0.8284690732305026, 'GAMMA': 0.6827263300248966, 'ALPHA': 0.9051651280227025, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:30:13,389] Trial 14 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 78, 'EPS_START': 0.9408633248482842, 'EPS_DECAY': 0.9275213393294461, 'GAMMA': 0.834906420446051, 'ALPHA': 0.9113938196480779, 'N_STEP': 4}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:30:35,444] Trial 15 finished with value: -99.475 and parameters: {'Q_INIT': 108, 'EPS_START': 0.9653346253980756, 'EPS_DECAY': 0.8889698551185934, 'GAMMA': 0.713880520034881, 'ALPHA': 0.926844363166237, 'N_STEP': 5}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:30:57,737] Trial 16 finished with value: -99.49166666666666 and parameters: {'Q_INIT': 78, 'EPS_START': 0.9634476770073281, 'EPS_DECAY': 0.7893066427454597, 'GAMMA': 0.8643389044806581, 'ALPHA': 0.8540993445677639, 'N_STEP': 3}. Best is trial 2 with value: -99.15.
+[I 2026-07-18 09:31:18,995] Trial 17 finished with value: -99.075 and parameters: {'Q_INIT': 146, 'EPS_START': 0.8612529855199943, 'EPS_DECAY': 0.9491974019827752, 'GAMMA': 0.9962273471518132, 'ALPHA': 0.9572594495970644, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:31:40,338] Trial 18 finished with value: -99.39166666666667 and parameters: {'Q_INIT': 146, 'EPS_START': 0.8510385391381247, 'EPS_DECAY': 0.5015436124389028, 'GAMMA': 0.9868552349040968, 'ALPHA': 0.9413305349507661, 'N_STEP': 3}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:32:01,714] Trial 19 finished with value: -99.41666666666667 and parameters: {'Q_INIT': 140, 'EPS_START': 0.8242109404953767, 'EPS_DECAY': 0.7733343621480158, 'GAMMA': 0.9851314580212376, 'ALPHA': 0.8514866400826016, 'N_STEP': 5}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:32:23,201] Trial 20 finished with value: -99.54166666666667 and parameters: {'Q_INIT': 133, 'EPS_START': 0.8740618784673547, 'EPS_DECAY': 0.923322071872428, 'GAMMA': 0.8879592727434188, 'ALPHA': 0.7904903576212815, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:32:44,372] Trial 21 finished with value: -99.51666666666667 and parameters: {'Q_INIT': 108, 'EPS_START': 0.8254844575339204, 'EPS_DECAY': 0.9641255441403608, 'GAMMA': 0.7878670407024652, 'ALPHA': 0.9635226058555145, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:33:06,587] Trial 22 finished with value: -99.3 and parameters: {'Q_INIT': 81, 'EPS_START': 0.8021350126236518, 'EPS_DECAY': 0.943759939025037, 'GAMMA': 0.9933636670493605, 'ALPHA': 0.9628937813205386, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:33:30,887] Trial 23 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 147, 'EPS_START': 0.9655747757753588, 'EPS_DECAY': 0.8825762936439594, 'GAMMA': 0.6390534605582118, 'ALPHA': 0.8864023978098894, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:34:03,839] Trial 24 finished with value: -99.575 and parameters: {'Q_INIT': 110, 'EPS_START': 0.8701438492628166, 'EPS_DECAY': 0.9814272599884148, 'GAMMA': 0.734647448673898, 'ALPHA': 0.9965160472057737, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:34:37,078] Trial 25 finished with value: -99.53333333333333 and parameters: {'Q_INIT': 130, 'EPS_START': 0.8431954464863208, 'EPS_DECAY': 0.8970657033575838, 'GAMMA': 0.8935007757336132, 'ALPHA': 0.9500706069133608, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:35:08,225] Trial 26 finished with value: -99.5 and parameters: {'Q_INIT': 98, 'EPS_START': 0.9185321599884148, 'EPS_DECAY': 0.8387082243511612, 'GAMMA': 0.755527323899333, 'ALPHA': 0.8644112982967821, 'N_STEP': 5}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:35:39,264] Trial 27 finished with value: -99.525 and parameters: {'Q_INIT': 142, 'EPS_START': 0.8798012837704613, 'EPS_DECAY': 0.9417264750147402, 'GAMMA': 0.8200664125544299, 'ALPHA': 0.9709367207979251, 'N_STEP': 3}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:36:09,476] Trial 28 finished with value: -99.475 and parameters: {'Q_INIT': 150, 'EPS_START': 0.949322903912183, 'EPS_DECAY': 0.8600690203993029, 'GAMMA': 0.9657286221530084, 'ALPHA': 0.9213855556477814, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:36:40,325] Trial 29 finished with value: -99.53333333333333 and parameters: {'Q_INIT': 50, 'EPS_START': 0.984363726759017, 'EPS_DECAY': 0.9511444392606352, 'GAMMA': 0.6707030041323494, 'ALPHA': 0.8268076752002873, 'N_STEP': 5}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:37:05,320] Trial 30 finished with value: -99.73333333333333 and parameters: {'Q_INIT': 126, 'EPS_START': 0.9156524292966803, 'EPS_DECAY': 0.9892834606310924, 'GAMMA': 0.8851025612895133, 'ALPHA': 0.8868313588187444, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:37:34,384] Trial 31 finished with value: -99.18333333333334 and parameters: {'Q_INIT': 77, 'EPS_START': 0.8000152381380529, 'EPS_DECAY': 0.9126960031649702, 'GAMMA': 0.9744339317919464, 'ALPHA': 0.9620497500893574, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:38:04,412] Trial 32 finished with value: -99.18333333333334 and parameters: {'Q_INIT': 72, 'EPS_START': 0.8314076570699058, 'EPS_DECAY': 0.9071209035159853, 'GAMMA': 0.9622830302192578, 'ALPHA': 0.9762138920811128, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:38:26,349] Trial 33 finished with value: -99.425 and parameters: {'Q_INIT': 70, 'EPS_START': 0.8342475456404033, 'EPS_DECAY': 0.9044629434398905, 'GAMMA': 0.9584723507651042, 'ALPHA': 0.9461802996603714, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:38:49,442] Trial 34 finished with value: -99.44166666666666 and parameters: {'Q_INIT': 85, 'EPS_START': 0.815062661192743, 'EPS_DECAY': 0.8036176616813046, 'GAMMA': 0.9140292721857652, 'ALPHA': 0.9686428927424872, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:39:18,699] Trial 35 finished with value: -99.40833333333333 and parameters: {'Q_INIT': 62, 'EPS_START': 0.8611337898435102, 'EPS_DECAY': 0.7498582565901991, 'GAMMA': 0.9575558892577338, 'ALPHA': 0.8983054963191119, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:39:47,998] Trial 36 finished with value: -99.425 and parameters: {'Q_INIT': 69, 'EPS_START': 0.8125627215685122, 'EPS_DECAY': 0.8604185726065505, 'GAMMA': 0.9110875006145425, 'ALPHA': 0.9293378772395515, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:40:16,599] Trial 37 finished with value: -99.19166666666666 and parameters: {'Q_INIT': 116, 'EPS_START': 0.838193373277199, 'EPS_DECAY': 0.923006600043197, 'GAMMA': 0.996463274906026, 'ALPHA': 0.9705674722443351, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:40:46,814] Trial 38 finished with value: -99.55833333333334 and parameters: {'Q_INIT': 71, 'EPS_START': 0.8541485081128376, 'EPS_DECAY': 0.8704395711601152, 'GAMMA': 0.9317425661480367, 'ALPHA': 0.6947471723118511, 'N_STEP': 3}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:41:15,871] Trial 39 finished with value: -99.525 and parameters: {'Q_INIT': 138, 'EPS_START': 0.8306261925622401, 'EPS_DECAY': 0.9034923496244828, 'GAMMA': 0.8576425418181053, 'ALPHA': 0.8172081164135986, 'N_STEP': 5}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:41:44,687] Trial 40 finished with value: -99.46666666666667 and parameters: {'Q_INIT': 51, 'EPS_START': 0.8635199715470616, 'EPS_DECAY': 0.833241922368123, 'GAMMA': 0.9644556024370196, 'ALPHA': 0.8716233715711854, 'N_STEP': 3}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:42:13,008] Trial 41 finished with value: -99.13333333333334 and parameters: {'Q_INIT': 115, 'EPS_START': 0.8395276169564286, 'EPS_DECAY': 0.9284730982379507, 'GAMMA': 0.9963382679056896, 'ALPHA': 0.9753852945625556, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:42:41,273] Trial 42 finished with value: -99.45 and parameters: {'Q_INIT': 125, 'EPS_START': 0.8153209765926397, 'EPS_DECAY': 0.9446576918453529, 'GAMMA': 0.9358711227593413, 'ALPHA': 0.9805681157576674, 'N_STEP': 4}. Best is trial 17 with value: -99.075.
+[I 2026-07-18 09:43:19,521] Trial 43 finished with value: -84.925 and parameters: {'Q_INIT': 114, 'EPS_START': 0.8434183559284321, 'EPS_DECAY': 0.9073567344593699, 'GAMMA': 0.9996113599797011, 'ALPHA': 0.940613758793346, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:43:47,876] Trial 44 finished with value: -99.5 and parameters: {'Q_INIT': 119, 'EPS_START': 0.8864620038142196, 'EPS_DECAY': 0.9569241532082834, 'GAMMA': 0.9734136506633493, 'ALPHA': 0.9365860928210382, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:44:16,317] Trial 45 finished with value: -99.19166666666666 and parameters: {'Q_INIT': 112, 'EPS_START': 0.8448572734518464, 'EPS_DECAY': 0.9317782982448557, 'GAMMA': 0.995683861031317, 'ALPHA': 0.9154322339588172, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:44:39,249] Trial 46 finished with value: -99.575 and parameters: {'Q_INIT': 133, 'EPS_START': 0.8573508775763321, 'EPS_DECAY': 0.8802719273402502, 'GAMMA': 0.9460623033719301, 'ALPHA': 0.5623446502190548, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:45:01,128] Trial 47 finished with value: -99.45833333333333 and parameters: {'Q_INIT': 101, 'EPS_START': 0.8464678437426604, 'EPS_DECAY': 0.8504904807732404, 'GAMMA': 0.9164087836694383, 'ALPHA': 0.9537231520688302, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:45:26,305] Trial 48 finished with value: -99.14166666666667 and parameters: {'Q_INIT': 104, 'EPS_START': 0.8954677037294234, 'EPS_DECAY': 0.9655517089393619, 'GAMMA': 0.824050279303163, 'ALPHA': 0.9999616351925021, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+[I 2026-07-18 09:45:55,271] Trial 49 finished with value: -99.28333333333333 and parameters: {'Q_INIT': 104, 'EPS_START': 0.888752355966253, 'EPS_DECAY': 0.9617348523385956, 'GAMMA': 0.8248731337738704, 'ALPHA': 0.9978982306733218, 'N_STEP': 4}. Best is trial 43 with value: -84.925.
+
+=== sarsa ===
+best value : -84.925
+best params: {'Q_INIT': 114, 'EPS_START': 0.8434183559284321, 'EPS_DECAY': 0.9073567344593699, 'GAMMA': 0.9996113599797011, 'ALPHA': 0.940613758793346, 'N_STEP': 4}
+[I 2026-07-18 09:45:55,294] A new study created in memory with name: n_step_sarsa
+[W 2026-07-18 09:45:59,536] Trial 0 failed with parameters: {'Q_INIT': 104, 'EPS_START': 0.8973637864041989, 'EPS_DECAY': 0.656083502508577, 'GAMMA': 0.8321153870064896, 'ALPHA': 0.8860071149246475, 'N_STEP': 4} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa_tune.py", line 36, in objective
+    return evaluate(learner, TUNE_EPISODES)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa_tune.py", line 23, in evaluate
+    curve = learner(env, n_episodes, False)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 147, in n_step_sarsa
+    next_obs, reward, done = env.step(actions[tt])
+                             ~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 619, in step
+    self._grid2grid()
+    ~~~~~~~~~~~~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 574, in _grid2grid
+    water = np.abs(self._grid) >= 1.125
+            ~~~~~~^^^^^^^^^^^^
+KeyboardInterrupt
+[W 2026-07-18 09:45:59,565] Trial 0 failed with value None.
+Traceback (most recent call last):
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa_tune.py", line 44, in <module>
+    study.optimize(make_objective(learner), n_trials=50)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\study.py", line 516, in optimize
+    _optimize(
+    ~~~~~~~~~^
+        study=self,
+        ^^^^^^^^^^^
+    ...<7 lines>...
+        show_progress_bar=show_progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+    ~~~~~~~~~~~~~~~~~~~~^
+        study,
+        ^^^^^^
+    ...<8 lines>...
+        progress_bar=progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\_optimize.py", line 263, in _run_trial
+    raise func_err
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\optuna\study\_optimize.py", line 206, in _run_trial
+    value_or_values = func(trial)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa_tune.py", line 36, in objective
+    return evaluate(learner, TUNE_EPISODES)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa_tune.py", line 23, in evaluate
+    curve = learner(env, n_episodes, False)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 147, in n_step_sarsa
+    next_obs, reward, done = env.step(actions[tt])
+                             ~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 619, in step
+    self._grid2grid()
+    ~~~~~~~~~~~~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 574, in _grid2grid
+    water = np.abs(self._grid) >= 1.125
+            ~~~~~~^^^^^^^^^^^^
+KeyboardInterrupt
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py     
+env   1/100 | final-10 avg real reward: -100.0
+env   2/100 | final-10 avg real reward:  -80.0
+env   3/100 | final-10 avg real reward: -100.0
+env   4/100 | final-10 avg real reward: -100.0
+env   5/100 | final-10 avg real reward: -100.0
+env   6/100 | final-10 avg real reward: -100.0
+env   7/100 | final-10 avg real reward:  -80.0
+env   8/100 | final-10 avg real reward:  -80.0
+env   9/100 | final-10 avg real reward: -100.0
+env  10/100 | final-10 avg real reward: -100.0
+env  11/100 | final-10 avg real reward: -100.0
+env  12/100 | final-10 avg real reward: -100.0
+env  13/100 | final-10 avg real reward:  -80.0
+env  14/100 | final-10 avg real reward: -100.0
+env  15/100 | final-10 avg real reward: -100.0
+env  16/100 | final-10 avg real reward: -100.0
+env  17/100 | final-10 avg real reward: -100.0
+env  18/100 | final-10 avg real reward: -100.0
+env  19/100 | final-10 avg real reward: -100.0
+env  20/100 | final-10 avg real reward: -100.0
+env  21/100 | final-10 avg real reward: -100.0
+env  22/100 | final-10 avg real reward: -100.0
+env  23/100 | final-10 avg real reward: -100.0
+env  24/100 | final-10 avg real reward:  -80.0
+env  25/100 | final-10 avg real reward: -100.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward: -100.0
+env  28/100 | final-10 avg real reward: -100.0
+env  29/100 | final-10 avg real reward: -100.0
+env  30/100 | final-10 avg real reward:  -80.0
+env  31/100 | final-10 avg real reward: -100.0
+env  32/100 | final-10 avg real reward: -100.0
+env  33/100 | final-10 avg real reward: -100.0
+env  34/100 | final-10 avg real reward: -100.0
+env  35/100 | final-10 avg real reward:  -80.0
+env  36/100 | final-10 avg real reward:  -80.0
+env  37/100 | final-10 avg real reward:  -80.0
+env  38/100 | final-10 avg real reward:  -80.0
+env  39/100 | final-10 avg real reward: -100.0
+env  40/100 | final-10 avg real reward:  -80.0
+env  41/100 | final-10 avg real reward:  -80.0
+env  42/100 | final-10 avg real reward: -100.0
+env  43/100 | final-10 avg real reward: -100.0
+env  44/100 | final-10 avg real reward: -100.0
+env  45/100 | final-10 avg real reward: -100.0
+env  46/100 | final-10 avg real reward: -100.0
+env  47/100 | final-10 avg real reward:  -80.0
+env  48/100 | final-10 avg real reward:  -80.0
+env  49/100 | final-10 avg real reward: -100.0
+env  50/100 | final-10 avg real reward: -100.0
+env  51/100 | final-10 avg real reward:  -80.0
+env  52/100 | final-10 avg real reward: -100.0
+env  53/100 | final-10 avg real reward: -100.0
+env  54/100 | final-10 avg real reward: -100.0
+env  55/100 | final-10 avg real reward: -100.0
+env  56/100 | final-10 avg real reward:  -80.0
+env  57/100 | final-10 avg real reward:  -80.0
+env  58/100 | final-10 avg real reward: -100.0
+env  59/100 | final-10 avg real reward: -100.0
+env  60/100 | final-10 avg real reward: -100.0
+env  61/100 | final-10 avg real reward: -100.0
+env  62/100 | final-10 avg real reward: -100.0
+env  63/100 | final-10 avg real reward:  -90.0
+env  64/100 | final-10 avg real reward:  -80.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  -80.0
+env  67/100 | final-10 avg real reward: -100.0
+env  68/100 | final-10 avg real reward: -100.0
+env  69/100 | final-10 avg real reward: -100.0
+env  70/100 | final-10 avg real reward: -100.0
+env  71/100 | final-10 avg real reward: -100.0
+env  72/100 | final-10 avg real reward: -100.0
+env  73/100 | final-10 avg real reward: -100.0
+env  74/100 | final-10 avg real reward:  -80.0
+env  75/100 | final-10 avg real reward: -100.0
+env  76/100 | final-10 avg real reward: -100.0
+env  77/100 | final-10 avg real reward: -100.0
+env  78/100 | final-10 avg real reward: -100.0
+env  79/100 | final-10 avg real reward: -100.0
+env  80/100 | final-10 avg real reward: -100.0
+env  81/100 | final-10 avg real reward:  -80.0
+env  82/100 | final-10 avg real reward: -100.0
+env  83/100 | final-10 avg real reward: -100.0
+env  84/100 | final-10 avg real reward:  -80.0
+env  85/100 | final-10 avg real reward:  -80.0
+env  86/100 | final-10 avg real reward: -100.0
+env  87/100 | final-10 avg real reward: -100.0
+env  88/100 | final-10 avg real reward:  -60.0
+env  89/100 | final-10 avg real reward: -100.0
+env  90/100 | final-10 avg real reward: -100.0
+env  91/100 | final-10 avg real reward: -100.0
+env  92/100 | final-10 avg real reward: -100.0
+env  93/100 | final-10 avg real reward: -100.0
+env  94/100 | final-10 avg real reward: -100.0
+env  95/100 | final-10 avg real reward: -100.0
+env  96/100 | final-10 avg real reward: -100.0
+env  97/100 | final-10 avg real reward: -100.0
+env  98/100 | final-10 avg real reward: -100.0
+env  99/100 | final-10 avg real reward:  -80.0
+env 100/100 | final-10 avg real reward: -100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -92 / -76 / -88 / -98
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward: -100.0
+Traceback (most recent call last):
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 243, in <module>
+    main()                       # required deliverable: averaged learning curve
+    ~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 221, in main
+    all_curves[i] = sarsa_fn(env, N_EPISODES, False)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 80, in sarsa_fn
+    shaped = reward + GAMMA * phi(env, next_state) - phi(env, obs)
+                              ~~~^^^^^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 40, in phi
+    goal = _find_goal(env)
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 30, in _find_goal
+    g = np.argwhere(env.grid == 'G')
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\numpy\_core\numeric.py", line 668, in argwhere
+    if np.ndim(a) == 0:
+       ~~~~~~~^^^
+  File "C:\Users\nikam\ReinforcementLearning\Task1\.venv\Lib\site-packages\numpy\_core\fromnumeric.py", line 3478, in _ndim_dispatcher
+    def _ndim_dispatcher(a):
+    
+KeyboardInterrupt
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:   90.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  100.0
+env   7/100 | final-10 avg real reward:  100.0
+env   8/100 | final-10 avg real reward:   60.0
+env   9/100 | final-10 avg real reward:  100.0
+env  10/100 | final-10 avg real reward:  100.0
+env  11/100 | final-10 avg real reward:  100.0
+env  12/100 | final-10 avg real reward:   90.0
+env  13/100 | final-10 avg real reward:  100.0
+env  14/100 | final-10 avg real reward:  100.0
+env  15/100 | final-10 avg real reward:  100.0
+env  16/100 | final-10 avg real reward:  100.0
+env  17/100 | final-10 avg real reward:    0.0
+env  18/100 | final-10 avg real reward:  100.0
+env  19/100 | final-10 avg real reward:  100.0
+env  20/100 | final-10 avg real reward:  100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:  100.0
+env  23/100 | final-10 avg real reward:  100.0
+env  24/100 | final-10 avg real reward:   20.0
+env  25/100 | final-10 avg real reward:  100.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  100.0
+env  28/100 | final-10 avg real reward:  100.0
+env  29/100 | final-10 avg real reward:  100.0
+env  30/100 | final-10 avg real reward:  100.0
+env  31/100 | final-10 avg real reward:  100.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward:  100.0
+env  34/100 | final-10 avg real reward:  100.0
+env  35/100 | final-10 avg real reward:  100.0
+env  36/100 | final-10 avg real reward:  100.0
+env  37/100 | final-10 avg real reward:  100.0
+env  38/100 | final-10 avg real reward:  100.0
+env  39/100 | final-10 avg real reward:  100.0
+env  40/100 | final-10 avg real reward:    0.0
+env  41/100 | final-10 avg real reward:  100.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:  100.0
+env  44/100 | final-10 avg real reward:   80.0
+env  45/100 | final-10 avg real reward:  100.0
+env  46/100 | final-10 avg real reward:   50.0
+env  47/100 | final-10 avg real reward:  100.0
+env  48/100 | final-10 avg real reward:   80.0
+env  49/100 | final-10 avg real reward:  100.0
+env  50/100 | final-10 avg real reward:  100.0
+env  51/100 | final-10 avg real reward:  100.0
+env  52/100 | final-10 avg real reward:  100.0
+env  53/100 | final-10 avg real reward:    0.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:    0.0
+env  56/100 | final-10 avg real reward:  100.0
+env  57/100 | final-10 avg real reward:  100.0
+env  58/100 | final-10 avg real reward:  100.0
+env  59/100 | final-10 avg real reward:  100.0
+env  60/100 | final-10 avg real reward:  100.0
+env  61/100 | final-10 avg real reward:  100.0
+env  62/100 | final-10 avg real reward:  100.0
+env  63/100 | final-10 avg real reward:  100.0
+env  64/100 | final-10 avg real reward:  100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  100.0
+env  67/100 | final-10 avg real reward:  100.0
+env  68/100 | final-10 avg real reward:  100.0
+env  69/100 | final-10 avg real reward:  100.0
+env  70/100 | final-10 avg real reward:  100.0
+env  71/100 | final-10 avg real reward:    0.0
+env  72/100 | final-10 avg real reward:  100.0
+env  73/100 | final-10 avg real reward:    0.0
+env  74/100 | final-10 avg real reward:   30.0
+env  75/100 | final-10 avg real reward:  100.0
+env  76/100 | final-10 avg real reward:  100.0
+env  77/100 | final-10 avg real reward:  100.0
+env  78/100 | final-10 avg real reward:  100.0
+env  79/100 | final-10 avg real reward:  100.0
+env  80/100 | final-10 avg real reward:  100.0
+env  81/100 | final-10 avg real reward:  100.0
+env  82/100 | final-10 avg real reward:    0.0
+env  83/100 | final-10 avg real reward:  100.0
+env  84/100 | final-10 avg real reward:  100.0
+env  85/100 | final-10 avg real reward:    0.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  100.0
+env  88/100 | final-10 avg real reward:  100.0
+env  89/100 | final-10 avg real reward:    0.0
+env  90/100 | final-10 avg real reward:  100.0
+env  91/100 | final-10 avg real reward:  100.0
+env  92/100 | final-10 avg real reward:  100.0
+env  93/100 | final-10 avg real reward:    0.0
+env  94/100 | final-10 avg real reward:  100.0
+env  95/100 | final-10 avg real reward:  100.0
+env  96/100 | final-10 avg real reward:   50.0
+env  97/100 | final-10 avg real reward:  100.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:  100.0
+env 100/100 | final-10 avg real reward:  100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -83 / -43 / -31 / 83
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/task1.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:  100.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  100.0
+env   7/100 | final-10 avg real reward:  100.0
+env   8/100 | final-10 avg real reward:  100.0
+env   9/100 | final-10 avg real reward:  100.0
+env  10/100 | final-10 avg real reward:  100.0
+env  11/100 | final-10 avg real reward:  100.0
+env  12/100 | final-10 avg real reward:  100.0
+env  13/100 | final-10 avg real reward:  100.0
+env  14/100 | final-10 avg real reward:  100.0
+env  15/100 | final-10 avg real reward:  100.0
+env  16/100 | final-10 avg real reward:  100.0
+env  17/100 | final-10 avg real reward:  100.0
+env  18/100 | final-10 avg real reward:  100.0
+env  19/100 | final-10 avg real reward:  100.0
+env  20/100 | final-10 avg real reward:  100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:  100.0
+env  23/100 | final-10 avg real reward:  100.0
+env  24/100 | final-10 avg real reward:  100.0
+env  25/100 | final-10 avg real reward:  100.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  100.0
+env  28/100 | final-10 avg real reward:  100.0
+env  29/100 | final-10 avg real reward:  100.0
+env  30/100 | final-10 avg real reward:  100.0
+env  31/100 | final-10 avg real reward:  100.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward:  100.0
+env  34/100 | final-10 avg real reward:  100.0
+env  35/100 | final-10 avg real reward:  100.0
+env  36/100 | final-10 avg real reward:  100.0
+env  37/100 | final-10 avg real reward:  100.0
+env  38/100 | final-10 avg real reward:  100.0
+env  39/100 | final-10 avg real reward:  100.0
+env  40/100 | final-10 avg real reward:  100.0
+env  41/100 | final-10 avg real reward:  100.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:  100.0
+env  44/100 | final-10 avg real reward:  100.0
+env  45/100 | final-10 avg real reward:  100.0
+env  46/100 | final-10 avg real reward:  100.0
+env  47/100 | final-10 avg real reward:  100.0
+env  48/100 | final-10 avg real reward:  100.0
+env  49/100 | final-10 avg real reward:  100.0
+env  50/100 | final-10 avg real reward:  100.0
+env  51/100 | final-10 avg real reward:  100.0
+env  52/100 | final-10 avg real reward:  100.0
+env  53/100 | final-10 avg real reward:  100.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:  100.0
+env  56/100 | final-10 avg real reward:  100.0
+env  57/100 | final-10 avg real reward:  100.0
+env  58/100 | final-10 avg real reward:  100.0
+env  59/100 | final-10 avg real reward:  100.0
+env  60/100 | final-10 avg real reward:  100.0
+env  61/100 | final-10 avg real reward:  100.0
+env  62/100 | final-10 avg real reward:  100.0
+env  63/100 | final-10 avg real reward:  100.0
+env  64/100 | final-10 avg real reward:  100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  100.0
+env  67/100 | final-10 avg real reward:  100.0
+env  68/100 | final-10 avg real reward:  100.0
+env  69/100 | final-10 avg real reward:  100.0
+env  70/100 | final-10 avg real reward:  100.0
+env  71/100 | final-10 avg real reward:  100.0
+env  72/100 | final-10 avg real reward:  100.0
+env  73/100 | final-10 avg real reward:  100.0
+env  74/100 | final-10 avg real reward:  100.0
+env  75/100 | final-10 avg real reward:    0.0
+env  76/100 | final-10 avg real reward:  100.0
+env  77/100 | final-10 avg real reward:  100.0
+env  78/100 | final-10 avg real reward:  100.0
+env  79/100 | final-10 avg real reward:  100.0
+env  80/100 | final-10 avg real reward:  100.0
+env  81/100 | final-10 avg real reward:  100.0
+env  82/100 | final-10 avg real reward:  100.0
+env  83/100 | final-10 avg real reward:  100.0
+env  84/100 | final-10 avg real reward:  100.0
+env  85/100 | final-10 avg real reward:  100.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  100.0
+env  88/100 | final-10 avg real reward:  100.0
+env  89/100 | final-10 avg real reward:  100.0
+env  90/100 | final-10 avg real reward:  100.0
+env  91/100 | final-10 avg real reward:  100.0
+env  92/100 | final-10 avg real reward:  100.0
+env  93/100 | final-10 avg real reward:  100.0
+env  94/100 | final-10 avg real reward:  100.0
+env  95/100 | final-10 avg real reward:  100.0
+env  96/100 | final-10 avg real reward:  100.0
+env  97/100 | final-10 avg real reward:  100.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:  100.0
+env 100/100 | final-10 avg real reward:  100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: 59 / 93 / 95 / 95
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:  -70.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  -30.0
+env   7/100 | final-10 avg real reward:    0.0
+env   8/100 | final-10 avg real reward:  -10.0
+env   9/100 | final-10 avg real reward:  -10.0
+env  10/100 | final-10 avg real reward:    0.0
+env  11/100 | final-10 avg real reward:   10.0
+env  12/100 | final-10 avg real reward:   30.0
+env  13/100 | final-10 avg real reward:    0.0
+env  14/100 | final-10 avg real reward:    0.0
+env  15/100 | final-10 avg real reward:  -60.0
+env  16/100 | final-10 avg real reward:    0.0
+env  17/100 | final-10 avg real reward:  -40.0
+env  18/100 | final-10 avg real reward:    0.0
+env  19/100 | final-10 avg real reward:    0.0
+env  20/100 | final-10 avg real reward:  100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:   10.0
+env  23/100 | final-10 avg real reward:  -10.0
+env  24/100 | final-10 avg real reward:  -30.0
+env  25/100 | final-10 avg real reward:  -50.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  -10.0
+env  28/100 | final-10 avg real reward:  -40.0
+env  29/100 | final-10 avg real reward:  -60.0
+env  30/100 | final-10 avg real reward:  -50.0
+env  31/100 | final-10 avg real reward:  -80.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward:    0.0
+env  34/100 | final-10 avg real reward: -100.0
+env  35/100 | final-10 avg real reward:    0.0
+env  36/100 | final-10 avg real reward:   30.0
+env  37/100 | final-10 avg real reward:    0.0
+env  38/100 | final-10 avg real reward:    0.0
+env  39/100 | final-10 avg real reward:    0.0
+env  40/100 | final-10 avg real reward:  -40.0
+env  41/100 | final-10 avg real reward:  -40.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:  100.0
+env  44/100 | final-10 avg real reward:  -80.0
+env  45/100 | final-10 avg real reward:  -30.0
+env  46/100 | final-10 avg real reward: -100.0
+env  47/100 | final-10 avg real reward:  -40.0
+env  48/100 | final-10 avg real reward: -100.0
+env  49/100 | final-10 avg real reward:  100.0
+env  50/100 | final-10 avg real reward:  -10.0
+env  51/100 | final-10 avg real reward:  -60.0
+env  52/100 | final-10 avg real reward:    0.0
+env  53/100 | final-10 avg real reward:  -40.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:  -60.0
+env  56/100 | final-10 avg real reward:  -30.0
+env  57/100 | final-10 avg real reward:  -60.0
+Traceback (most recent call last):
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 243, in <module>
+    main()                       # required deliverable: averaged learning curve
+    ~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 221, in main
+    all_curves[i] = sarsa_fn(env, N_EPISODES, False)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 80, in sarsa_fn
+    shaped = reward + GAMMA * phi(env, next_state) - phi(env, obs)
+                              ~~~^^^^^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 44, in phi
+    return 1 - (abs(r - goal[0]) + abs(c - goal[1])) / (width + height - 2)* SHAPE_W
+                ~~~^^^^^^^^^^^^^
+KeyboardInterrupt
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:  -80.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  -50.0
+env   7/100 | final-10 avg real reward:    0.0
+env   8/100 | final-10 avg real reward:   10.0
+env   9/100 | final-10 avg real reward:  -20.0
+env  10/100 | final-10 avg real reward:  -10.0
+env  11/100 | final-10 avg real reward:   70.0
+env  12/100 | final-10 avg real reward:  -20.0
+env  13/100 | final-10 avg real reward:    0.0
+env  14/100 | final-10 avg real reward:  100.0
+env  15/100 | final-10 avg real reward:  -60.0
+env  16/100 | final-10 avg real reward:    0.0
+env  17/100 | final-10 avg real reward:  -10.0
+env  18/100 | final-10 avg real reward:    0.0
+env  19/100 | final-10 avg real reward:    0.0
+env  20/100 | final-10 avg real reward:  100.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:  100.0
+env  23/100 | final-10 avg real reward:  -10.0
+env  24/100 | final-10 avg real reward:  -50.0
+env  25/100 | final-10 avg real reward:  -60.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:   20.0
+env  28/100 | final-10 avg real reward:    0.0
+env  29/100 | final-10 avg real reward:  -50.0
+env  30/100 | final-10 avg real reward:    0.0
+env  31/100 | final-10 avg real reward:  -80.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward:  100.0
+env  34/100 | final-10 avg real reward:  -10.0
+env  35/100 | final-10 avg real reward:   40.0
+env  36/100 | final-10 avg real reward:  100.0
+env  37/100 | final-10 avg real reward:   80.0
+env  38/100 | final-10 avg real reward: -100.0
+env  39/100 | final-10 avg real reward:   30.0
+env  40/100 | final-10 avg real reward:  -40.0
+env  41/100 | final-10 avg real reward:  -80.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward:  100.0
+env  44/100 | final-10 avg real reward:  -20.0
+env  45/100 | final-10 avg real reward:   40.0
+env  46/100 | final-10 avg real reward:  -80.0
+env  47/100 | final-10 avg real reward:   20.0
+env  48/100 | final-10 avg real reward:  -40.0
+env  49/100 | final-10 avg real reward:  100.0
+env  50/100 | final-10 avg real reward:  -40.0
+env  51/100 | final-10 avg real reward:  -80.0
+env  52/100 | final-10 avg real reward:    0.0
+env  53/100 | final-10 avg real reward:  -20.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:  -40.0
+env  56/100 | final-10 avg real reward:  -40.0
+env  57/100 | final-10 avg real reward:  -60.0
+env  58/100 | final-10 avg real reward: -100.0
+env  59/100 | final-10 avg real reward:  -60.0
+env  60/100 | final-10 avg real reward:   90.0
+env  61/100 | final-10 avg real reward:  100.0
+env  62/100 | final-10 avg real reward:  -10.0
+env  63/100 | final-10 avg real reward:  100.0
+env  64/100 | final-10 avg real reward:  100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  100.0
+env  67/100 | final-10 avg real reward:   90.0
+env  68/100 | final-10 avg real reward:  -40.0
+env  69/100 | final-10 avg real reward:  -50.0
+env  70/100 | final-10 avg real reward:    0.0
+env  71/100 | final-10 avg real reward:  -60.0
+env  72/100 | final-10 avg real reward:   30.0
+env  73/100 | final-10 avg real reward:    0.0
+env  74/100 | final-10 avg real reward:  -40.0
+env  75/100 | final-10 avg real reward:  100.0
+env  76/100 | final-10 avg real reward:  100.0
+env  77/100 | final-10 avg real reward:  -90.0
+env  78/100 | final-10 avg real reward:  100.0
+env  79/100 | final-10 avg real reward:  100.0
+env  80/100 | final-10 avg real reward:  -60.0
+env  81/100 | final-10 avg real reward:  -40.0
+env  82/100 | final-10 avg real reward:  -50.0
+env  83/100 | final-10 avg real reward:  100.0
+env  84/100 | final-10 avg real reward:    0.0
+env  85/100 | final-10 avg real reward:  -80.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  100.0
+env  88/100 | final-10 avg real reward:  -10.0
+env  89/100 | final-10 avg real reward:    0.0
+env  90/100 | final-10 avg real reward:  100.0
+env  91/100 | final-10 avg real reward:    0.0
+env  92/100 | final-10 avg real reward:  -30.0
+env  93/100 | final-10 avg real reward:  -70.0
+env  94/100 | final-10 avg real reward:  -20.0
+env  95/100 | final-10 avg real reward:    0.0
+env  96/100 | final-10 avg real reward: -100.0
+env  97/100 | final-10 avg real reward:   80.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:  -60.0
+env 100/100 | final-10 avg real reward: -100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -83 / -43 / -38 / 29
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> & c:\Users\nikam\ReinforcementLearning\Task1\.venv\Scripts\python.exe c:/Users/nikam/ReinforcementLearning/Task1/sarsa.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward:  100.0
+env   3/100 | final-10 avg real reward:  -60.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward:  -40.0
+Traceback (most recent call last):
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 243, in <module>
+    main()                       # required deliverable: averaged learning curve
+    ~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 221, in main
+    all_curves[i] = sarsa_fn(env, N_EPISODES, False)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\sarsa.py", line 78, in sarsa_fn
+    next_state, reward, done = env.step(action)
+                               ~~~~~~~~^^^^^^^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 619, in step
+    self._grid2grid()
+    ~~~~~~~~~~~~~~~^^
+  File "c:\Users\nikam\ReinforcementLearning\Task1\gridworld.py", line 577, in _grid2grid
+    self.grid[self._grid == 10] = 'S'
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+(.venv) PS C:\Users\nikam\ReinforcementLearning\Task1> 

@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{claudeaichat2026reinforcementlearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=84bca484eecdc8a712dc296ea963d6f8}{%
+           family={(Anthropic)},
+           familyi={(\bibinitperiod},
+           given={Claude},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{fullhash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{fullhashraw}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{bibnamehash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{authorbibnamehash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{authornamehash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{authorfullhash}{84bca484eecdc8a712dc296ea963d6f8}
+      \strng{authorfullhashraw}{84bca484eecdc8a712dc296ea963d6f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://claude.ai/share/2359a783-c33a-430a-8f6e-b91dc0d88510}}
+      \field{note}{Accessed: July 18, 2026}
+      \field{title}{[Your Chat Title/Topic Here]}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{miller2023rewardshaping}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c41411769fd972add78f7652d57a6afc}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mastering Reinforcement Learning}%
+      }
+      \strng{namehash}{c41411769fd972add78f7652d57a6afc}
+      \strng{fullhash}{c41411769fd972add78f7652d57a6afc}
+      \strng{fullhashraw}{c41411769fd972add78f7652d57a6afc}
+      \strng{bibnamehash}{c41411769fd972add78f7652d57a6afc}
+      \strng{authorbibnamehash}{c41411769fd972add78f7652d57a6afc}
+      \strng{authornamehash}{c41411769fd972add78f7652d57a6afc}
+      \strng{authorfullhash}{c41411769fd972add78f7652d57a6afc}
+      \strng{authorfullhashraw}{c41411769fd972add78f7652d57a6afc}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gibberblot.github.io/rl-notes/single-agent/reward-shaping.html}}
+      \field{title}{Reward Shaping}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{professor2026slides}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9100574e927cb2f1de84a1d95c5b05c1}{%
+           family={Professor},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Nierhoff},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {OTH Amberg-Weiden}%
+      }
+      \strng{namehash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{fullhash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{fullhashraw}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{bibnamehash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{authorbibnamehash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{authornamehash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{authorfullhash}{9100574e927cb2f1de84a1d95c5b05c1}
+      \strng{authorfullhashraw}{9100574e927cb2f1de84a1d95c5b05c1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vorlesungsfolien}
+      \field{note}{Modul: Reinforcement Learning}
+      \field{title}{Deep Reinforcement Learning}
+      \field{year}{2026}
+      \true{nocite}
+    \endentry
+    \entry{zhao2025potentialbasedrewardshaping}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=30a15c5779db3e98d9424f382ba27ae4}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{fullhash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{fullhashraw}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{bibnamehash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{authorbibnamehash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{authornamehash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{authorfullhash}{30a15c5779db3e98d9424f382ba27ae4}
+      \strng{authorfullhashraw}{30a15c5779db3e98d9424f382ba27ae4}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://medium.com/@sophiezhao_2990/potential-based-reward-shaping-in-reinforcement-learning-05da05cfb84a}}
+      \field{journaltitle}{Medium}
+      \field{month}{7}
+      \field{note}{6 min read}
+      \field{title}{Potential-Based Reward Shaping in Reinforcement Learning}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

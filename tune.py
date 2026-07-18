@@ -4,8 +4,8 @@ import random
 import task1
 from task1 import q_learning_single, DoubleQLearning
 from gridworld import SeaShanty
-
-TUNE_SEEDS    = range(0, 30)   # disjoint from final-plot seeds 1000-1099 (required)
+import json
+TUNE_SEEDS    = range(0, 50)   # disjoint from final-plot seeds 1000-1099 (required)
 TUNE_EPISODES = 400            # shorter than the final run, for speed
 
 
@@ -36,12 +36,25 @@ def make_objective(learner):
         return evaluate(learner, TUNE_EPISODES)
     return objective
 
+def tune_doubleQ():
+    name, learner = "double_q",   DoubleQLearning
+    study = optuna.create_study(direction="maximize", study_name=name, storage="sqlite:///tune_doubleq.db")
+    study.optimize(make_objective(learner), n_trials=500)
+    print(f"\n=== {name} ===")
+    print("best value :", study.best_value)
+    print("best params:", study.best_params)
+    json.dump({"best_val": study.best_value, "best_params": study.best_params}, open("tune_results.json", "w"), indent=2)
+    print(f"\nsaved -> tune_results.json")
 
-if __name__ == "__main__":
+def tune_all():
     for name, learner in [("q_learning", q_learning_single),
                           ("double_q",   DoubleQLearning)]:
-        study = optuna.create_study(direction="maximize", study_name=name)
-        study.optimize(make_objective(learner), n_trials=50)
+        study = optuna.create_study(direction="maximize", study_name=name, storage="sqlite:///tune_doubleq.db", load_if_exists=True)
+        study.optimize(make_objective(learner), n_trials=500)
         print(f"\n=== {name} ===")
         print("best value :", study.best_value)
         print("best params:", study.best_params)
+
+
+if __name__ == "__main__":
+    tune_doubleQ()

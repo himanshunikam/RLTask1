@@ -1,0 +1,242 @@
+7401@oth-aw.de@ki-032:~/Schreibtisch/Task2/RLTask1$ /usr/local/bin/python /home/7401/Schreibtisch/Task2/RLTask1/task1.py
+env   1/100 | final-10 avg real reward:  100.0
+env   2/100 | final-10 avg real reward: -100.0
+env   3/100 | final-10 avg real reward:  -80.0
+env   4/100 | final-10 avg real reward:  100.0
+env   5/100 | final-10 avg real reward:  100.0
+env   6/100 | final-10 avg real reward: -100.0
+env   7/100 | final-10 avg real reward:  100.0
+env   8/100 | final-10 avg real reward: -100.0
+env   9/100 | final-10 avg real reward:  -80.0
+env  10/100 | final-10 avg real reward: -100.0
+env  11/100 | final-10 avg real reward:  100.0
+env  12/100 | final-10 avg real reward:  -60.0
+env  13/100 | final-10 avg real reward:  100.0
+env  14/100 | final-10 avg real reward:  -80.0
+env  15/100 | final-10 avg real reward: -100.0
+env  16/100 | final-10 avg real reward:  -60.0
+env  17/100 | final-10 avg real reward:  100.0
+env  18/100 | final-10 avg real reward:  100.0
+env  19/100 | final-10 avg real reward: -100.0
+env  20/100 | final-10 avg real reward:  -80.0
+env  21/100 | final-10 avg real reward:  100.0
+env  22/100 | final-10 avg real reward:   80.0
+env  23/100 | final-10 avg real reward: -100.0
+env  24/100 | final-10 avg real reward: -100.0
+env  25/100 | final-10 avg real reward:  100.0
+env  26/100 | final-10 avg real reward: -100.0
+env  27/100 | final-10 avg real reward:  100.0
+env  28/100 | final-10 avg real reward:  100.0
+env  29/100 | final-10 avg real reward: -100.0
+env  30/100 | final-10 avg real reward:  100.0
+env  31/100 | final-10 avg real reward: -100.0
+env  32/100 | final-10 avg real reward:  100.0
+env  33/100 | final-10 avg real reward: -100.0
+env  34/100 | final-10 avg real reward: -100.0
+env  35/100 | final-10 avg real reward:  -80.0
+env  36/100 | final-10 avg real reward: -100.0
+env  37/100 | final-10 avg real reward:  100.0
+env  38/100 | final-10 avg real reward:  100.0
+env  39/100 | final-10 avg real reward:  100.0
+env  40/100 | final-10 avg real reward:  100.0
+env  41/100 | final-10 avg real reward: -100.0
+env  42/100 | final-10 avg real reward:  100.0
+env  43/100 | final-10 avg real reward: -100.0
+env  44/100 | final-10 avg real reward:  100.0
+env  45/100 | final-10 avg real reward: -100.0
+env  46/100 | final-10 avg real reward:  100.0
+env  47/100 | final-10 avg real reward: -100.0
+env  48/100 | final-10 avg real reward:  100.0
+env  49/100 | final-10 avg real reward: -100.0
+env  50/100 | final-10 avg real reward:  -80.0
+env  51/100 | final-10 avg real reward: -100.0
+env  52/100 | final-10 avg real reward:  -60.0
+env  53/100 | final-10 avg real reward:  -80.0
+env  54/100 | final-10 avg real reward:  100.0
+env  55/100 | final-10 avg real reward:  100.0
+env  56/100 | final-10 avg real reward:  100.0
+env  57/100 | final-10 avg real reward:  -80.0
+env  58/100 | final-10 avg real reward:  100.0
+env  59/100 | final-10 avg real reward: -100.0
+env  60/100 | final-10 avg real reward: -100.0
+env  61/100 | final-10 avg real reward: -100.0
+env  62/100 | final-10 avg real reward:  100.0
+env  63/100 | final-10 avg real reward: -100.0
+env  64/100 | final-10 avg real reward: -100.0
+env  65/100 | final-10 avg real reward: -100.0
+env  66/100 | final-10 avg real reward:  100.0
+env  67/100 | final-10 avg real reward:  100.0
+env  68/100 | final-10 avg real reward: -100.0
+env  69/100 | final-10 avg real reward: -100.0
+env  70/100 | final-10 avg real reward: -100.0
+env  71/100 | final-10 avg real reward:  100.0
+env  72/100 | final-10 avg real reward: -100.0
+env  73/100 | final-10 avg real reward:  -80.0
+env  74/100 | final-10 avg real reward: -100.0
+env  75/100 | final-10 avg real reward: -100.0
+env  76/100 | final-10 avg real reward:  -60.0
+env  77/100 | final-10 avg real reward: -100.0
+env  78/100 | final-10 avg real reward:  100.0
+env  79/100 | final-10 avg real reward: -100.0
+env  80/100 | final-10 avg real reward: -100.0
+env  81/100 | final-10 avg real reward:  100.0
+env  82/100 | final-10 avg real reward:  -60.0
+env  83/100 | final-10 avg real reward:  -80.0
+env  84/100 | final-10 avg real reward:  100.0
+env  85/100 | final-10 avg real reward: -100.0
+env  86/100 | final-10 avg real reward:  100.0
+env  87/100 | final-10 avg real reward:  100.0
+env  88/100 | final-10 avg real reward:  -80.0
+env  89/100 | final-10 avg real reward: -100.0
+env  90/100 | final-10 avg real reward: -100.0
+env  91/100 | final-10 avg real reward:  -80.0
+env  92/100 | final-10 avg real reward:  -80.0
+env  93/100 | final-10 avg real reward: -100.0
+env  94/100 | final-10 avg real reward:  100.0
+env  95/100 | final-10 avg real reward:  100.0
+env  96/100 | final-10 avg real reward:  100.0
+env  97/100 | final-10 avg real reward:  100.0
+env  98/100 | final-10 avg real reward:  100.0
+env  99/100 | final-10 avg real reward:  100.0
+env 100/100 | final-10 avg real reward:  100.0
+
+Saved learning_curve.png | reward at ep50/100/150/199: -100 / -100 / -100 / -10
+libGL error: MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: swrast
+^CTraceback (most recent call last):
+  File "/home/7401/Schreibtisch/Task2/RLTask1/task1.py", line 271, in <module>
+    demo_value_tables(seed=1000)  # bonus: inspect the learned Q/V tables on one env
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/7401/Schreibtisch/Task2/RLTask1/task1.py", line 238, in demo_value_tables
+    plot_q_table(env, pos_q, policy=policy)
+  File "/home/7401/Schreibtisch/Task2/RLTask1/plot.py", line 34, in plot_q_table
+    plot_table(env=env, table=q_table, policy=policy)
+  File "/home/7401/Schreibtisch/Task2/RLTask1/plot.py", line 71, in plot_table
+    plt.show()
+  File "/opt/miniconda/lib/python3.12/site-packages/matplotlib/pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 3550, in show
+    cls.mainloop()
+  File "/opt/miniconda/lib/python3.12/site-packages/matplotlib/backends/backend_qt.py", line 657, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/opt/miniconda/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 1660, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+KeyboardInterrupt
+/usr/local/bin/python /home/7401/Schreibtisch/Task2/RLTask1/tune.py
+
+7401@oth-aw.de@ki-032:~/Schreibtisch/Task2/RLTask1$ /usr/local/bin/python /home/7401/Schreibtisch/Task2/RLTask1/tune.py
+[I 2026-07-18 09:40:44,991] A new study created in memory with name: q_learning
+[I 2026-07-18 09:40:53,175] Trial 0 finished with value: -99.51666666666667 and parameters: {'Q_INIT': 90, 'EPS_START': 0.9625517980238106, 'EPS_DECAY': 0.6569651105592342, 'GAMMA': 0.623973742580082, 'ALPHA': 0.7162443792596386}. Best is trial 0 with value: -99.51666666666667.
+[I 2026-07-18 09:41:01,251] Trial 1 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 111, 'EPS_START': 0.8352021763594009, 'EPS_DECAY': 0.5052637598253891, 'GAMMA': 0.7279393135611201, 'ALPHA': 0.669399119172229}. Best is trial 1 with value: -99.50833333333334.
+[I 2026-07-18 09:41:09,222] Trial 2 finished with value: -99.54166666666667 and parameters: {'Q_INIT': 87, 'EPS_START': 0.8496907949315106, 'EPS_DECAY': 0.773589300538926, 'GAMMA': 0.8934653013966962, 'ALPHA': 0.6954922990190446}. Best is trial 1 with value: -99.50833333333334.
+[I 2026-07-18 09:41:17,280] Trial 3 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 100, 'EPS_START': 0.9866177656482376, 'EPS_DECAY': 0.5351636844099645, 'GAMMA': 0.6057334545327273, 'ALPHA': 0.68877690064684}. Best is trial 1 with value: -99.50833333333334.
+[I 2026-07-18 09:41:25,462] Trial 4 finished with value: -99.225 and parameters: {'Q_INIT': 144, 'EPS_START': 0.8515726753232422, 'EPS_DECAY': 0.7133566070095809, 'GAMMA': 0.9613974805776361, 'ALPHA': 0.9849547742799778}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:41:34,029] Trial 5 finished with value: -99.5 and parameters: {'Q_INIT': 63, 'EPS_START': 0.8465780814069765, 'EPS_DECAY': 0.5253459348353525, 'GAMMA': 0.6093385367472324, 'ALPHA': 0.6010463151468534}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:41:42,448] Trial 6 finished with value: -99.56666666666666 and parameters: {'Q_INIT': 150, 'EPS_START': 0.9076670640816991, 'EPS_DECAY': 0.5091466729126988, 'GAMMA': 0.6454536290419262, 'ALPHA': 0.5396410633152511}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:41:50,910] Trial 7 finished with value: -99.475 and parameters: {'Q_INIT': 53, 'EPS_START': 0.9173271317237985, 'EPS_DECAY': 0.5110295903877942, 'GAMMA': 0.7107650023206216, 'ALPHA': 0.8450536204956989}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:41:59,883] Trial 8 finished with value: -99.53333333333333 and parameters: {'Q_INIT': 83, 'EPS_START': 0.8742947281749226, 'EPS_DECAY': 0.8036562769401525, 'GAMMA': 0.6166929815709866, 'ALPHA': 0.6183269189603364}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:42:07,960] Trial 9 finished with value: -99.5 and parameters: {'Q_INIT': 94, 'EPS_START': 0.8840507696680191, 'EPS_DECAY': 0.8239393590922017, 'GAMMA': 0.8954806638730584, 'ALPHA': 0.8644039408609215}. Best is trial 4 with value: -99.225.
+[I 2026-07-18 09:42:15,991] Trial 10 finished with value: -99.20833333333333 and parameters: {'Q_INIT': 143, 'EPS_START': 0.8066220715888657, 'EPS_DECAY': 0.9016796069645707, 'GAMMA': 0.9945456317013015, 'ALPHA': 0.9993590117125007}. Best is trial 10 with value: -99.20833333333333.
+[I 2026-07-18 09:42:24,154] Trial 11 finished with value: -99.19166666666666 and parameters: {'Q_INIT': 147, 'EPS_START': 0.8060591712954346, 'EPS_DECAY': 0.9439332814359598, 'GAMMA': 0.9876340201144572, 'ALPHA': 0.9843416739424461}. Best is trial 11 with value: -99.19166666666666.
+[I 2026-07-18 09:42:32,162] Trial 12 finished with value: -96.74166666666666 and parameters: {'Q_INIT': 130, 'EPS_START': 0.8034769322223567, 'EPS_DECAY': 0.9804730049901506, 'GAMMA': 0.9993928418717374, 'ALPHA': 0.9940548380921415}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:42:40,426] Trial 13 finished with value: -99.59166666666667 and parameters: {'Q_INIT': 125, 'EPS_START': 0.8011566846284637, 'EPS_DECAY': 0.9679376776443764, 'GAMMA': 0.8896419335923057, 'ALPHA': 0.9072882485260207}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:42:48,051] Trial 14 finished with value: -99.63333333333334 and parameters: {'Q_INIT': 128, 'EPS_START': 0.8200603516943378, 'EPS_DECAY': 0.9876701361516171, 'GAMMA': 0.8379016419760538, 'ALPHA': 0.9285239700516477}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:42:57,013] Trial 15 finished with value: -99.575 and parameters: {'Q_INIT': 127, 'EPS_START': 0.824259712438108, 'EPS_DECAY': 0.9049187812703995, 'GAMMA': 0.5016980838721834, 'ALPHA': 0.7995014707572542}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:05,859] Trial 16 finished with value: -99.44166666666666 and parameters: {'Q_INIT': 135, 'EPS_START': 0.8068229042220539, 'EPS_DECAY': 0.9141792689796019, 'GAMMA': 0.9527243498559402, 'ALPHA': 0.9448364647995341}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:14,845] Trial 17 finished with value: -99.55 and parameters: {'Q_INIT': 113, 'EPS_START': 0.8700842349475212, 'EPS_DECAY': 0.8572721134663921, 'GAMMA': 0.8046953570530414, 'ALPHA': 0.7879566097782944}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:23,507] Trial 18 finished with value: -99.5 and parameters: {'Q_INIT': 115, 'EPS_START': 0.8254048036872486, 'EPS_DECAY': 0.9441187674187237, 'GAMMA': 0.9786631341384552, 'ALPHA': 0.8802823596466745}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:32,239] Trial 19 finished with value: -99.475 and parameters: {'Q_INIT': 136, 'EPS_START': 0.8372011923741844, 'EPS_DECAY': 0.855376546649185, 'GAMMA': 0.9401020047281788, 'ALPHA': 0.9550019857369466}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:40,852] Trial 20 finished with value: -99.15833333333333 and parameters: {'Q_INIT': 149, 'EPS_START': 0.8007247063798438, 'EPS_DECAY': 0.9431837425570245, 'GAMMA': 0.8287006155901824, 'ALPHA': 0.9991991605958737}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:49,102] Trial 21 finished with value: -99.45833333333333 and parameters: {'Q_INIT': 148, 'EPS_START': 0.8004187584345658, 'EPS_DECAY': 0.939773185659643, 'GAMMA': 0.7988575765380688, 'ALPHA': 0.9943004323817676}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:43:56,031] Trial 22 finished with value: -99.66666666666667 and parameters: {'Q_INIT': 137, 'EPS_START': 0.8207424649793122, 'EPS_DECAY': 0.987998723038882, 'GAMMA': 0.8548409730262787, 'ALPHA': 0.9434518343734296}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:04,064] Trial 23 finished with value: -99.49166666666666 and parameters: {'Q_INIT': 123, 'EPS_START': 0.8125669228787649, 'EPS_DECAY': 0.8788610475089805, 'GAMMA': 0.9275295308557924, 'ALPHA': 0.9041569741366964}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:11,873] Trial 24 finished with value: -99.21666666666667 and parameters: {'Q_INIT': 136, 'EPS_START': 0.8577350774535211, 'EPS_DECAY': 0.9432284021158526, 'GAMMA': 0.9961121961839731, 'ALPHA': 0.9667248790932317}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:19,841] Trial 25 finished with value: -99.61666666666666 and parameters: {'Q_INIT': 141, 'EPS_START': 0.83348594473673, 'EPS_DECAY': 0.9336653494347347, 'GAMMA': 0.7449722565506691, 'ALPHA': 0.8286262576637435}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:28,186] Trial 26 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 131, 'EPS_START': 0.8140120100392914, 'EPS_DECAY': 0.8781992852557167, 'GAMMA': 0.9291713440164074, 'ALPHA': 0.889307071512129}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:36,295] Trial 27 finished with value: -99.575 and parameters: {'Q_INIT': 122, 'EPS_START': 0.8349331385397056, 'EPS_DECAY': 0.9647277656780334, 'GAMMA': 0.84911081591881, 'ALPHA': 0.9340844843344361}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:44,573] Trial 28 finished with value: -99.19166666666666 and parameters: {'Q_INIT': 148, 'EPS_START': 0.8014360699383739, 'EPS_DECAY': 0.7634487281118536, 'GAMMA': 0.7892669193475838, 'ALPHA': 0.9996510413695361}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:44:52,625] Trial 29 finished with value: -99.44166666666666 and parameters: {'Q_INIT': 102, 'EPS_START': 0.9031716269413792, 'EPS_DECAY': 0.5947781730012578, 'GAMMA': 0.6895129958212728, 'ALPHA': 0.9645088665213148}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:00,650] Trial 30 finished with value: -99.575 and parameters: {'Q_INIT': 120, 'EPS_START': 0.958320464613664, 'EPS_DECAY': 0.8349588503831878, 'GAMMA': 0.9190093049611909, 'ALPHA': 0.7471123492911128}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:08,642] Trial 31 finished with value: -99.43333333333334 and parameters: {'Q_INIT': 150, 'EPS_START': 0.8013297980961519, 'EPS_DECAY': 0.7269667032606755, 'GAMMA': 0.7666020635682017, 'ALPHA': 0.9927285090063418}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:16,708] Trial 32 finished with value: -99.49166666666666 and parameters: {'Q_INIT': 142, 'EPS_START': 0.816583493100089, 'EPS_DECAY': 0.6551937416406877, 'GAMMA': 0.799059669638746, 'ALPHA': 0.927716780861351}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:25,044] Trial 33 finished with value: -99.45833333333333 and parameters: {'Q_INIT': 132, 'EPS_START': 0.8289203359534202, 'EPS_DECAY': 0.7729271325294174, 'GAMMA': 0.676740075203194, 'ALPHA': 0.9692313936490747}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:33,375] Trial 34 finished with value: -99.16666666666667 and parameters: {'Q_INIT': 147, 'EPS_START': 0.8422793513029131, 'EPS_DECAY': 0.6518290352413352, 'GAMMA': 0.8740937203307659, 'ALPHA': 0.9981082407074795}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:41,805] Trial 35 finished with value: -99.5 and parameters: {'Q_INIT': 141, 'EPS_START': 0.8455457091747186, 'EPS_DECAY': 0.6347412452089278, 'GAMMA': 0.8783275335537573, 'ALPHA': 0.9239577953022181}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:50,192] Trial 36 finished with value: -99.45833333333333 and parameters: {'Q_INIT': 144, 'EPS_START': 0.85900509484027, 'EPS_DECAY': 0.7102995421699717, 'GAMMA': 0.9669489392026758, 'ALPHA': 0.9620981651652913}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:45:58,194] Trial 37 finished with value: -99.425 and parameters: {'Q_INIT': 118, 'EPS_START': 0.8388462735326379, 'EPS_DECAY': 0.6814467586590802, 'GAMMA': 0.9081750367020975, 'ALPHA': 0.9751108322761537}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:06,094] Trial 38 finished with value: -99.55 and parameters: {'Q_INIT': 131, 'EPS_START': 0.9362923094355291, 'EPS_DECAY': 0.9192657943493905, 'GAMMA': 0.8245353021163959, 'ALPHA': 0.9116978503864506}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:14,200] Trial 39 finished with value: -99.425 and parameters: {'Q_INIT': 104, 'EPS_START': 0.8659045725791265, 'EPS_DECAY': 0.5805393808930028, 'GAMMA': 0.9716934816780534, 'ALPHA': 0.8722067019083722}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:22,218] Trial 40 finished with value: -99.4 and parameters: {'Q_INIT': 73, 'EPS_START': 0.8850514041335659, 'EPS_DECAY': 0.5710477671956935, 'GAMMA': 0.8782881488201715, 'ALPHA': 0.9742235659680369}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:30,196] Trial 41 finished with value: -99.41666666666667 and parameters: {'Q_INIT': 146, 'EPS_START': 0.8126201269945064, 'EPS_DECAY': 0.7615256568645531, 'GAMMA': 0.7747693533514263, 'ALPHA': 0.9962968571932052}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:38,073] Trial 42 finished with value: -99.13333333333334 and parameters: {'Q_INIT': 149, 'EPS_START': 0.845851267484645, 'EPS_DECAY': 0.8028308502201513, 'GAMMA': 0.8605201099271023, 'ALPHA': 0.9998740773635474}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:46,088] Trial 43 finished with value: -99.45 and parameters: {'Q_INIT': 139, 'EPS_START': 0.8437061414589854, 'EPS_DECAY': 0.79515242545169, 'GAMMA': 0.8607527389309194, 'ALPHA': 0.9492360384270416}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:46:54,753] Trial 44 finished with value: -99.59166666666667 and parameters: {'Q_INIT': 146, 'EPS_START': 0.8522215206825914, 'EPS_DECAY': 0.732868252758582, 'GAMMA': 0.8168901217219542, 'ALPHA': 0.5021794647920541}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:47:03,113] Trial 45 finished with value: -99.44166666666666 and parameters: {'Q_INIT': 150, 'EPS_START': 0.9850887965607756, 'EPS_DECAY': 0.8849786179930118, 'GAMMA': 0.9472116780663159, 'ALPHA': 0.9753533613881106}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:47:11,337] Trial 46 finished with value: -97.875 and parameters: {'Q_INIT': 107, 'EPS_START': 0.8840909856525304, 'EPS_DECAY': 0.9764033862079661, 'GAMMA': 0.9989045140189434, 'ALPHA': 0.9078675753895601}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:47:19,444] Trial 47 finished with value: -99.58333333333333 and parameters: {'Q_INIT': 109, 'EPS_START': 0.9043146829834522, 'EPS_DECAY': 0.9647762458711914, 'GAMMA': 0.7478394525454702, 'ALPHA': 0.8483283489943628}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:47:27,582] Trial 48 finished with value: -99.6 and parameters: {'Q_INIT': 92, 'EPS_START': 0.8813956884768872, 'EPS_DECAY': 0.9767465603631253, 'GAMMA': 0.9100295826960129, 'ALPHA': 0.6463568009312691}. Best is trial 12 with value: -96.74166666666666.
+[I 2026-07-18 09:47:36,351] Trial 49 finished with value: -99.50833333333334 and parameters: {'Q_INIT': 86, 'EPS_START': 0.8898808347947281, 'EPS_DECAY': 0.6215475070735241, 'GAMMA': 0.5744650975142085, 'ALPHA': 0.8895383653578925}. Best is trial 12 with value: -96.74166666666666.
+
+=== q_learning ===
+best value : -96.74166666666666
+best params: {'Q_INIT': 130, 'EPS_START': 0.8034769322223567, 'EPS_DECAY': 0.9804730049901506, 'GAMMA': 0.9993928418717374, 'ALPHA': 0.9940548380921415}
+[I 2026-07-18 09:47:36,351] A new study created in memory with name: double_q
+[I 2026-07-18 09:47:44,722] Trial 0 finished with value: -98.44166666666666 and parameters: {'Q_INIT': 148, 'EPS_START': 0.9439547768258915, 'EPS_DECAY': 0.6727329552310358, 'GAMMA': 0.5796626404663221, 'ALPHA': 0.8741644775044202}. Best is trial 0 with value: -98.44166666666666.
+[I 2026-07-18 09:47:52,380] Trial 1 finished with value: -97.69166666666666 and parameters: {'Q_INIT': 89, 'EPS_START': 0.8811319596281261, 'EPS_DECAY': 0.5982487152479644, 'GAMMA': 0.8394802954165536, 'ALPHA': 0.8962775871750629}. Best is trial 1 with value: -97.69166666666666.
+[I 2026-07-18 09:48:06,899] Trial 2 finished with value: -75.875 and parameters: {'Q_INIT': 68, 'EPS_START': 0.8515647972812272, 'EPS_DECAY': 0.6213779592408322, 'GAMMA': 0.7170109137031009, 'ALPHA': 0.9213551533327335}. Best is trial 2 with value: -75.875.
+[I 2026-07-18 09:48:13,089] Trial 3 finished with value: -99.58333333333333 and parameters: {'Q_INIT': 131, 'EPS_START': 0.802216052285051, 'EPS_DECAY': 0.7966766368744469, 'GAMMA': 0.808952352100229, 'ALPHA': 0.7174993356222531}. Best is trial 2 with value: -75.875.
+[I 2026-07-18 09:48:25,483] Trial 4 finished with value: -86.45833333333333 and parameters: {'Q_INIT': 84, 'EPS_START': 0.9775367536204866, 'EPS_DECAY': 0.6007756516437632, 'GAMMA': 0.5907105254898638, 'ALPHA': 0.8517519431251555}. Best is trial 2 with value: -75.875.
+[I 2026-07-18 09:48:34,736] Trial 5 finished with value: -95.2 and parameters: {'Q_INIT': 87, 'EPS_START': 0.8964719575678967, 'EPS_DECAY': 0.744801875046515, 'GAMMA': 0.6856960808877501, 'ALPHA': 0.8925466248042585}. Best is trial 2 with value: -75.875.
+[I 2026-07-18 09:48:41,094] Trial 6 finished with value: -99.5 and parameters: {'Q_INIT': 147, 'EPS_START': 0.9968149618330817, 'EPS_DECAY': 0.5400498504121668, 'GAMMA': 0.731235679429769, 'ALPHA': 0.7087696772338472}. Best is trial 2 with value: -75.875.
+[I 2026-07-18 09:49:01,250] Trial 7 finished with value: -62.88333333333333 and parameters: {'Q_INIT': 59, 'EPS_START': 0.9693728698766155, 'EPS_DECAY': 0.5183339773830596, 'GAMMA': 0.7023936647596076, 'ALPHA': 0.7155098222051088}. Best is trial 7 with value: -62.88333333333333.
+[I 2026-07-18 09:49:07,037] Trial 8 finished with value: -99.53333333333333 and parameters: {'Q_INIT': 145, 'EPS_START': 0.8353765667125116, 'EPS_DECAY': 0.8203222236460123, 'GAMMA': 0.9169820629414889, 'ALPHA': 0.7068866091371881}. Best is trial 7 with value: -62.88333333333333.
+[I 2026-07-18 09:49:15,420] Trial 9 finished with value: -60.391666666666666 and parameters: {'Q_INIT': 80, 'EPS_START': 0.9952506384570086, 'EPS_DECAY': 0.6195733927966947, 'GAMMA': 0.9367029945081811, 'ALPHA': 0.9083595060509244}. Best is trial 9 with value: -60.391666666666666.
+[I 2026-07-18 09:49:22,123] Trial 10 finished with value: -92.31666666666666 and parameters: {'Q_INIT': 121, 'EPS_START': 0.9249897000606213, 'EPS_DECAY': 0.9789007594947672, 'GAMMA': 0.9981923897392003, 'ALPHA': 0.5015091691848979}. Best is trial 9 with value: -60.391666666666666.
+[I 2026-07-18 09:49:30,717] Trial 11 finished with value: -24.175 and parameters: {'Q_INIT': 50, 'EPS_START': 0.9563076522272336, 'EPS_DECAY': 0.5000502970408782, 'GAMMA': 0.9909615432120545, 'ALPHA': 0.5900056480483833}. Best is trial 11 with value: -24.175.
+[I 2026-07-18 09:49:39,912] Trial 12 finished with value: -13.2 and parameters: {'Q_INIT': 58, 'EPS_START': 0.9454115195830242, 'EPS_DECAY': 0.5004681903611287, 'GAMMA': 0.9988821518385483, 'ALPHA': 0.5046857070469188}. Best is trial 12 with value: -13.2.
+[I 2026-07-18 09:49:48,654] Trial 13 finished with value: -11.183333333333334 and parameters: {'Q_INIT': 52, 'EPS_START': 0.9327487218058804, 'EPS_DECAY': 0.507762260979742, 'GAMMA': 0.9986653224120174, 'ALPHA': 0.5107238325626422}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:49:57,679] Trial 14 finished with value: -87.35 and parameters: {'Q_INIT': 69, 'EPS_START': 0.9144673389239584, 'EPS_DECAY': 0.5570729751102182, 'GAMMA': 0.9011339186931109, 'ALPHA': 0.5006748587985476}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:03,985] Trial 15 finished with value: -99.36666666666666 and parameters: {'Q_INIT': 104, 'EPS_START': 0.9383389277617368, 'EPS_DECAY': 0.6570006844925309, 'GAMMA': 0.8595362494216628, 'ALPHA': 0.5921555186494277}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:13,288] Trial 16 finished with value: -15.775 and parameters: {'Q_INIT': 50, 'EPS_START': 0.8995802179988562, 'EPS_DECAY': 0.5067543896702442, 'GAMMA': 0.9626039325098878, 'ALPHA': 0.5897593102645666}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:31,997] Trial 17 finished with value: -71.91666666666667 and parameters: {'Q_INIT': 68, 'EPS_START': 0.8732537824201482, 'EPS_DECAY': 0.5698566362409458, 'GAMMA': 0.5085075574275288, 'ALPHA': 0.5519396944928141}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:44,192] Trial 18 finished with value: -72.475 and parameters: {'Q_INIT': 61, 'EPS_START': 0.9238143977693097, 'EPS_DECAY': 0.7011503506886917, 'GAMMA': 0.8887603057061703, 'ALPHA': 0.654937661752088}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:51,446] Trial 19 finished with value: -97.15833333333333 and parameters: {'Q_INIT': 101, 'EPS_START': 0.9560229359387796, 'EPS_DECAY': 0.9244219731430887, 'GAMMA': 0.7950967551456743, 'ALPHA': 0.639766604720471}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:50:58,369] Trial 20 finished with value: -74.94166666666666 and parameters: {'Q_INIT': 76, 'EPS_START': 0.9077385258457802, 'EPS_DECAY': 0.5608095373543713, 'GAMMA': 0.9374047221367305, 'ALPHA': 0.9999768440313336}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:51:06,852] Trial 21 finished with value: -15.558333333333334 and parameters: {'Q_INIT': 55, 'EPS_START': 0.892359674344313, 'EPS_DECAY': 0.505787480678858, 'GAMMA': 0.9737742319505629, 'ALPHA': 0.5656707912916736}. Best is trial 13 with value: -11.183333333333334.
+[I 2026-07-18 09:51:16,221] Trial 22 finished with value: -10.933333333333334 and parameters: {'Q_INIT': 58, 'EPS_START': 0.8769169097080072, 'EPS_DECAY': 0.5030409732152772, 'GAMMA': 0.9644685396995202, 'ALPHA': 0.5399790067343849}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:51:25,296] Trial 23 finished with value: -24.1 and parameters: {'Q_INIT': 61, 'EPS_START': 0.8600504312216003, 'EPS_DECAY': 0.5555824565255734, 'GAMMA': 0.9514810045110156, 'ALPHA': 0.5408695411563633}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:51:35,663] Trial 24 finished with value: -88.24166666666666 and parameters: {'Q_INIT': 70, 'EPS_START': 0.8199652710650597, 'EPS_DECAY': 0.5933066165984596, 'GAMMA': 0.8789050714459729, 'ALPHA': 0.6337578245398071}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:51:44,733] Trial 25 finished with value: -19.05 and parameters: {'Q_INIT': 58, 'EPS_START': 0.9357091971771088, 'EPS_DECAY': 0.53948308241089, 'GAMMA': 0.9971752245812795, 'ALPHA': 0.5289456064446997}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:51:52,873] Trial 26 finished with value: -56.208333333333336 and parameters: {'Q_INIT': 75, 'EPS_START': 0.9675742969242032, 'EPS_DECAY': 0.6502056357619355, 'GAMMA': 0.9209332892099369, 'ALPHA': 0.503161583197729}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:02,747] Trial 27 finished with value: -20.95 and parameters: {'Q_INIT': 50, 'EPS_START': 0.8700786531427164, 'EPS_DECAY': 0.5348542633418549, 'GAMMA': 0.957229270811475, 'ALPHA': 0.6110299667521932}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:09,813] Trial 28 finished with value: -97.725 and parameters: {'Q_INIT': 96, 'EPS_START': 0.9195664701640273, 'EPS_DECAY': 0.5769312641029849, 'GAMMA': 0.8356324057717899, 'ALPHA': 0.6699849880405511}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:18,801] Trial 29 finished with value: -20.641666666666666 and parameters: {'Q_INIT': 64, 'EPS_START': 0.9559093759893096, 'EPS_DECAY': 0.6945495276544131, 'GAMMA': 0.965620161504718, 'ALPHA': 0.5610546386559268}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:27,751] Trial 30 finished with value: -87.425 and parameters: {'Q_INIT': 74, 'EPS_START': 0.9430605789549588, 'EPS_DECAY': 0.6335553494793111, 'GAMMA': 0.9089393227654736, 'ALPHA': 0.7644790103407698}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:37,396] Trial 31 finished with value: -18.575 and parameters: {'Q_INIT': 56, 'EPS_START': 0.9013826822970284, 'EPS_DECAY': 0.5112750307571093, 'GAMMA': 0.9731085496474698, 'ALPHA': 0.5629687027761613}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:45,780] Trial 32 finished with value: -19.591666666666665 and parameters: {'Q_INIT': 52, 'EPS_START': 0.882539464430423, 'EPS_DECAY': 0.5014300180204053, 'GAMMA': 0.9781828643549318, 'ALPHA': 0.5333794492088881}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:52:54,166] Trial 33 finished with value: -23.125 and parameters: {'Q_INIT': 64, 'EPS_START': 0.8889977086626636, 'EPS_DECAY': 0.5387492150421895, 'GAMMA': 0.9978716651688476, 'ALPHA': 0.5695914823363092}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:53:03,921] Trial 34 finished with value: -20.8 and parameters: {'Q_INIT': 56, 'EPS_START': 0.8471425762786808, 'EPS_DECAY': 0.5900593549629246, 'GAMMA': 0.9384936796141141, 'ALPHA': 0.5264900464260119}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:53:18,296] Trial 35 finished with value: -75.125 and parameters: {'Q_INIT': 56, 'EPS_START': 0.9306878622754838, 'EPS_DECAY': 0.520105488323085, 'GAMMA': 0.8665648836205253, 'ALPHA': 0.6131292149282545}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:53:27,112] Trial 36 finished with value: -33.75 and parameters: {'Q_INIT': 66, 'EPS_START': 0.8665552342540289, 'EPS_DECAY': 0.6062019218310424, 'GAMMA': 0.9275678934698384, 'ALPHA': 0.5217345812901433}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:53:36,018] Trial 37 finished with value: -93.325 and parameters: {'Q_INIT': 81, 'EPS_START': 0.8865546023986044, 'EPS_DECAY': 0.5735721518695999, 'GAMMA': 0.8018021728516183, 'ALPHA': 0.5717441296199246}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:53:50,923] Trial 38 finished with value: -73.125 and parameters: {'Q_INIT': 55, 'EPS_START': 0.9824840186496748, 'EPS_DECAY': 0.5319373299361625, 'GAMMA': 0.838374973154088, 'ALPHA': 0.8228570015418633}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:54:00,320] Trial 39 finished with value: -46.983333333333334 and parameters: {'Q_INIT': 72, 'EPS_START': 0.8434766518671933, 'EPS_DECAY': 0.5435313007052034, 'GAMMA': 0.9640156960301726, 'ALPHA': 0.6770338486463509}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:54:16,477] Trial 40 finished with value: -70.96666666666667 and parameters: {'Q_INIT': 62, 'EPS_START': 0.9106597598502563, 'EPS_DECAY': 0.524225508494259, 'GAMMA': 0.7712782546185777, 'ALPHA': 0.6081470331795485}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:54:26,700] Trial 41 finished with value: -17.441666666666666 and parameters: {'Q_INIT': 51, 'EPS_START': 0.9012285194843577, 'EPS_DECAY': 0.5126844102250664, 'GAMMA': 0.964504670410461, 'ALPHA': 0.5869257539564351}. Best is trial 22 with value: -10.933333333333334.
+[I 2026-07-18 09:54:35,335] Trial 42 finished with value: -3.408333333333333 and parameters: {'Q_INIT': 60, 'EPS_START': 0.894525367556947, 'EPS_DECAY': 0.5071966318877293, 'GAMMA': 0.9481012152612325, 'ALPHA': 0.5445561305065373}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:54:47,854] Trial 43 finished with value: -53.75 and parameters: {'Q_INIT': 60, 'EPS_START': 0.8781941697643134, 'EPS_DECAY': 0.5001995131263344, 'GAMMA': 0.8961384888926357, 'ALPHA': 0.5438092841501614}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:54:56,894] Trial 44 finished with value: -28.041666666666668 and parameters: {'Q_INIT': 65, 'EPS_START': 0.8587828465424796, 'EPS_DECAY': 0.5552520649578456, 'GAMMA': 0.9403224480452778, 'ALPHA': 0.5104152295091516}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:55:05,537] Trial 45 finished with value: -25.341666666666665 and parameters: {'Q_INIT': 55, 'EPS_START': 0.8918697094395754, 'EPS_DECAY': 0.5901598587634546, 'GAMMA': 0.9820182335422601, 'ALPHA': 0.5495515855114039}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:55:12,437] Trial 46 finished with value: -82.21666666666667 and parameters: {'Q_INIT': 79, 'EPS_START': 0.8279660583262581, 'EPS_DECAY': 0.6177022299350422, 'GAMMA': 0.9171445749156426, 'ALPHA': 0.5759962585960646}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:55:18,628] Trial 47 finished with value: -99.59166666666667 and parameters: {'Q_INIT': 119, 'EPS_START': 0.9180924033094876, 'EPS_DECAY': 0.8247289064506811, 'GAMMA': 0.6273475692485251, 'ALPHA': 0.5212853105785614}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:55:26,965] Trial 48 finished with value: -39.958333333333336 and parameters: {'Q_INIT': 69, 'EPS_START': 0.9525668580166786, 'EPS_DECAY': 0.5198124934502256, 'GAMMA': 0.997247412117527, 'ALPHA': 0.6242176867596716}. Best is trial 42 with value: -3.408333333333333.
+[I 2026-07-18 09:55:33,763] Trial 49 finished with value: -56.875 and parameters: {'Q_INIT': 84, 'EPS_START': 0.9293570742419672, 'EPS_DECAY': 0.5530761945964499, 'GAMMA': 0.9457374298401476, 'ALPHA': 0.5010202690319551}. Best is trial 42 with value: -3.408333333333333.
+
+=== double_q ===
+best value : -3.408333333333333
+best params: {'Q_INIT': 60, 'EPS_START': 0.894525367556947, 'EPS_DECAY': 0.5071966318877293, 'GAMMA': 0.9481012152612325, 'ALPHA': 0.5445561305065373}
+7401@oth-aw.de@ki-032:~/Schreibtisch/Task2/RLTask1$ 
