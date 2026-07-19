@@ -80,9 +80,11 @@ reduzieren -- das ist neben der gro\ss en $-100$-Strafe besonders wichtig.
 
 \subsection{On-policy: SARSA (in sarsa.py)}
 SARSA bewertet die Politik, der es wirklich folgt, und ist dadurch \emph{vorsichtiger}
-nahe am t\"odlichen Wasser. Wir haben \textbf{SARSA} und \textbf{n-step SARSA} ($n=4$)
-umgesetzt; n-step gibt die Belohnungs-Information mehrere Schritte weiter zur\"uck und
-verteilt so das Lob schneller entlang des Weges zum Ziel.
+nahe am t\"odlichen Wasser. Wir haben \textbf{SARSA}, \textbf{Expected SARSA} und
+\textbf{n-step SARSA} ($n=4$) umgesetzt. Expected SARSA bootstrappt auf dem Erwartungswert
+$E_\pi[Q(s',a')]$ statt auf einer einzelnen n\"achsten Aktion (geringere Varianz); n-step
+gibt die Belohnungs-Information mehrere Schritte weiter zur\"uck und verteilt so das Lob
+schneller entlang des Weges zum Ziel.
 
 % =====================================================================
 \section{Wichtige Techniken}
@@ -119,34 +121,28 @@ so \emph{schnelles} Lernen.
 % =====================================================================
 \section{Ergebnisse}
 % =====================================================================
-Abbildung~\ref{fig:qcurve} zeigt die geforderte Lernkurve f\"ur Q-Learning: die reale
-Belohnung pro Episode, gemittelt \"uber 100 Umgebungen. Nach einer Anfangsphase mit
-vielen fr\"uhen Toden steigt die Kurve und n\"ahert sich $+100$, sobald die
-Greedy-Politik das Ziel zuverl\"assig erreicht. Double Q-Learning verh\"alt sich
-\"ahnlich, mit etwas ruhigeren Werten.
+Abbildung~\ref{fig:compare} zeigt das zentrale Ergebnis: die reale kumulierte Belohnung
+pro Episode, gemittelt \"uber 100 Umgebungen (Seeds 1000--1099), f\"ur alle f\"unf Methoden.
+Jede Methode benutzt ihre \emph{eigenen} mit Optuna getunten Hyperparameter; die orange
+Q-Learning-Kurve ist zugleich die geforderte Lernkurve (Summe der echten, nicht geshapten
+Belohnungen).
 
-\IfFileExists{learning_curve.png}{%
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.62\textwidth]{learning_curve.png}
-  \caption{Q-Learning: reale kumulierte Belohnung pro Episode, gemittelt \"uber
-           100 Umgebungen (Seeds 1000--1099).}
-  \label{fig:qcurve}
-\end{figure}}{}
-
-Abbildung~\ref{fig:compare} vergleicht alle vier Methoden auf denselben 100 Umgebungen;
-jede Methode benutzt dabei ihre \emph{eigenen} mit Optuna getunten Hyperparameter.
-Q-Learning und 1-Schritt-SARSA steigen z\"ugig auf etwa $+95$ (gel\"ost nach rund
-100--120 Episoden). Double Q-Learning und n-step SARSA lernen deutlich langsamer: Ihre
-Kurven steigen stetig, erreichen innerhalb von 300 Episoden aber nur die
-\glqq \"Uberlebens\grqq-Politik um $0$ und noch nicht das Ziel (Gr\"unde siehe Diskussion).
+Q-Learning, 1-Schritt-SARSA und Expected SARSA steigen z\"ugig auf etwa $+95$ und l\"osen
+die Umgebung nach rund 100--120 Episoden. Double Q-Learning und n-step SARSA lernen deutlich
+langsamer: Ihre Kurven steigen zwar stetig, erreichen innerhalb von 300 Episoden aber nur
+die \glqq \"Uberlebens\grqq-Politik um $0$ und noch nicht das Ziel (Gr\"unde siehe
+Diskussion). Expected SARSA verh\"alt sich praktisch wie 1-Schritt-SARSA -- sein Vorteil,
+die geringere Varianz durch den Erwartungswert statt einer einzelnen Stichprobe, wirkt vor
+allem in \emph{stochastischen} Umgebungen; hier ist die Dynamik pro Episode deterministisch,
+daher der kaum sichtbare Unterschied.
 
 \IfFileExists{methods_comparison.png}{%
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.62\textwidth]{methods_comparison.png}
-  \caption{Vergleich aller vier Methoden: reale kumulierte Belohnung pro Episode,
-           gemittelt \"uber 100 Umgebungen (Seeds 1000--1099).}
+  \includegraphics[width=0.68\textwidth]{methods_comparison.png}
+  \caption{Vergleich aller f\"unf Methoden: reale kumulierte Belohnung pro Episode,
+           gemittelt \"uber 100 Umgebungen (Seeds 1000--1099), jede mit ihren \emph{eigenen}
+           getunten Hyperparametern. Die Q-Learning-Kurve ist die geforderte Lernkurve.}
   \label{fig:compare}
 \end{figure}}{}
 
@@ -159,14 +155,15 @@ Kurven steigen stetig, erreichen innerhalb von 300 Episoden aber nur die
 \midrule
 Q-Learning        & l\"ost schnell & $\rightarrow +95$ & prim\"are L\"osung, am schnellsten\\
 SARSA (1-Schritt) & l\"ost schnell & $\rightarrow +95$ & fast so schnell wie Q-Learning\\
+Expected SARSA    & l\"ost schnell & $\rightarrow +95$ & wie SARSA, geringere Varianz\\
 Double Q-Learning & \"uberlebt     & $\approx 0$ & konvergiert langsam (zwei Tabellen)\\
 n-step SARSA ($n{=}4$) & \"uberlebt & $\approx 0$ & konvergiert langsam (n-step-Returns)\\
 \bottomrule
 \end{tabular}
 \caption{Vergleich der Methoden auf den Auswertungs-Umgebungen (Seeds 1000--1099) nach
          300 Episoden, jede mit ihren \emph{eigenen} getunten Hyperparametern.
-         Q-Learning und 1-Schritt-SARSA l\"osen; Double Q-Learning und n-step SARSA
-         erreichen nur die \"Uberlebens-Politik ($\approx 0$).}
+         Q-Learning, 1-Schritt-SARSA und Expected SARSA l\"osen; Double Q-Learning und
+         n-step SARSA erreichen nur die \"Uberlebens-Politik ($\approx 0$).}
 \end{table}
 
 % =====================================================================
